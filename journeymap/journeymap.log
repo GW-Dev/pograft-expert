@@ -1,7 +1,7 @@
-[12:07:17] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[12:07:17] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[12:07:17] [Render thread/INFO] [?] Version: JourneyMap 1.18.1-5.8.0beta10, built with Forge 1.18.1-39.0.6
-Forge: 39.0.55
+[15:31:00] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:31:00] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:31:00] [Render thread/INFO] [?] Version: JourneyMap 1.18.1-5.8.0beta10, built with Forge 1.18.1-39.0.6
+Forge: 39.0.58
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -18,18 +18,18 @@ null
 null
 null
 null
-[12:07:17] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[12:07:17] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[12:07:17] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[12:07:17] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[12:07:18] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 666.43ms
-[12:07:34] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[12:07:34] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft%208\.minecraft\mods\journeymap-1.18.1-5.8.0beta10%20(1).jar\assets\journeymap\theme\flat
-[12:07:34] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[12:07:34] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 37.6ms
-[12:09:51] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[12:10:21] [Render thread/INFO] [ChatLog] 
-[12:10:22] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[12:10:22] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\sp\New World\waypoints
-[12:10:22] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\sp\New World\C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\sp\New World\overworld. Memory: 9200MB total, 5669MB free 
-[12:40:06] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[15:31:00] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[15:31:00] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:31:00] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
+[15:31:00] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:31:00] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 668.49ms
+[15:31:16] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[15:31:16] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft%208\.minecraft\mods\journeymap-1.18.1-5.8.0beta10%20(1).jar\assets\journeymap\theme\flat
+[15:31:16] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[15:31:16] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 87.81ms
+[15:59:02] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:00:03] [Render thread/INFO] [ChatLog] 
+[16:00:03] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:00:04] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\sp\New World\waypoints
+[16:00:04] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\sp\New World\C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\sp\New World\overworld. Memory: 9088MB total, 3745MB free 
+[16:06:12] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft 8\.minecraft\journeymap\data\mp\offline\minecraft:overworld
