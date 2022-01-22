@@ -1,0 +1,10 @@
+{
+	id: "603886D850E305FA"
+	group: "016AD6FDA35F5969"
+	order_index: 19
+	filename: "chapter_20_the_end"
+	title: "Chapter 20: The End..."
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,10 @@
+{
+	id: "199484CF5C078E14"
+	group: "016AD6FDA35F5969"
+	order_index: 16
+	filename: "chapter_17_roots"
+	title: "Chapter 17: Malum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,10 @@
+{
+	id: "09B7C4A72987B738"
+	group: "016AD6FDA35F5969"
+	order_index: 9
+	filename: "chapter_75_applied_energistics_ii_iii"
+	title: "Chapter 10: Applied Energistics II 'III'"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

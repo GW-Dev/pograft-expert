@@ -1,0 +1,217 @@
+{
+	id: "066A08CA05F31C4E"
+	group: "320597A28A189294"
+	order_index: 2
+	filename: "food"
+	title: "Food"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -22.5d
+			y: -4.5d
+			id: "020A51722DBA9693"
+			tasks: [
+				{
+					id: "7EC0A210CB202569"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+				{
+					id: "09DB3FBEA709104A"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+			]
+			rewards: [{
+				id: "3862A785FD5B37A3"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				count: 4
+			}]
+		}
+		{
+			x: -20.0d
+			y: -6.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "1F6183CE1758363F"
+			tasks: [{
+				id: "48075F1C0F4DF73E"
+				type: "item"
+				item: "farmersdelight:rice"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -5.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "32D4089A379F763F"
+			tasks: [{
+				id: "4BA4407FE78CF942"
+				type: "item"
+				item: "farmersdelight:tomato"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -3.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "7DDF989B8C5371D8"
+			tasks: [{
+				id: "01E15BD7D6EBFA7D"
+				type: "item"
+				item: "farmersdelight:cabbage"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -2.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "00E316E364ADB076"
+			tasks: [{
+				id: "7367773A735E8344"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+		}
+		{
+			x: -17.5d
+			y: -4.5d
+			dependencies: [
+				"1F6183CE1758363F"
+				"32D4089A379F763F"
+				"7DDF989B8C5371D8"
+				"00E316E364ADB076"
+				"25646332098110E8"
+				"2572AAF4A16DF913"
+				"7163AE0F832BA316"
+				"4A5D2BCBBE4EE1FA"
+				"1B0C72315C8F6063"
+			]
+			id: "573FEC427759C719"
+			tasks: [{
+				id: "5F0245F731F3B18A"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+		}
+		{
+			x: -22.5d
+			y: -6.5d
+			dependencies: ["020A51722DBA9693"]
+			optional: true
+			id: "49769BBE8878B08C"
+			tasks: [{
+				id: "7F2F611675293CFC"
+				type: "item"
+				item: "farmersdelight:oak_cabinet"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.5d
+			dependencies: ["07B1D68833DF7B4C"]
+			id: "1535FC8310EF2CB1"
+			tasks: [{
+				id: "12C33D8DDC79630C"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["1535FC8310EF2CB1"]
+			id: "462849C40428074B"
+			tasks: [{
+				id: "66F53BEC6E172DE8"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -7.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "25646332098110E8"
+			tasks: [{
+				id: "4337BB664B405AAF"
+				type: "item"
+				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -8.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "2572AAF4A16DF913"
+			tasks: [{
+				id: "5DC93647F13B2567"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -1.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "4A5D2BCBBE4EE1FA"
+			tasks: [{
+				id: "7095FA606794DDF4"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -0.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "7163AE0F832BA316"
+			tasks: [{
+				id: "0F542156F0EB0473"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -4.5d
+			dependencies: ["020A51722DBA9693"]
+			id: "1B0C72315C8F6063"
+			tasks: [{
+				id: "318732B15E44806A"
+				type: "item"
+				item: "hexerei:milk_bottle"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -4.5d
+			dependencies: ["573FEC427759C719"]
+			id: "5660FE9DB2AD2585"
+			tasks: [{
+				id: "04854AA331AC24DB"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			dependencies: ["5660FE9DB2AD2585"]
+			id: "07B1D68833DF7B4C"
+			tasks: [{
+				id: "16A2D8FBE1FFCCA5"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+		}
+	]
+}

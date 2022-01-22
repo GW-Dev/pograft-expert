@@ -1,0 +1,110 @@
+{
+	id: "1DE690D04FE69131"
+	group: ""
+	order_index: 2
+	filename: "chapter_2_power"
+	title: "Chapter 2: Power"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 10.0d
+			dependencies: [
+				"2E216BC5A3A3B820"
+				"154812811D291BF9"
+			]
+			hide: true
+			id: "46C530278F5DDDD8"
+			tasks: [{
+				id: "0E81DDBCD22979FD"
+				type: "item"
+				item: "createaddition:copper_wire"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			dependencies: ["46C530278F5DDDD8"]
+			id: "5E8C339CE95B3207"
+			tasks: [{
+				id: "54E2F0F0939EF1DF"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			dependencies: ["5E8C339CE95B3207"]
+			id: "7E0FFE160D77223B"
+			tasks: [{
+				id: "5D4F307AA7491FA6"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			dependencies: ["7E0FFE160D77223B"]
+			id: "28690F0F32BAE4A5"
+			tasks: [{
+				id: "20132B25DF68B60F"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.0d
+			dependencies: ["28690F0F32BAE4A5"]
+			id: "633AE9BE750A4C88"
+			tasks: [{
+				id: "38C49156EF73DE0F"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 11.5d
+			dependencies: ["633AE9BE750A4C88"]
+			id: "3FBE3DAF53333F5A"
+			tasks: [{
+				id: "452D2B08E3DA9B7E"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 8.5d
+			dependencies: ["633AE9BE750A4C88"]
+			id: "6D68C60F9AF07687"
+			tasks: [{
+				id: "1EC6923B97821991"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			title: "Better Steel"
+			x: 17.0d
+			y: 10.0d
+			description: ["Make an improved blast furnace with preheaters to improve your steel production."]
+			dependencies: [
+				"633AE9BE750A4C88"
+				"3FBE3DAF53333F5A"
+				"6D68C60F9AF07687"
+			]
+			dependency_requirement: "one_completed"
+			id: "660B52B4AEC9EC5C"
+			tasks: [{
+				id: "7703964B8738D6D4"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
+		}
+	]
+}

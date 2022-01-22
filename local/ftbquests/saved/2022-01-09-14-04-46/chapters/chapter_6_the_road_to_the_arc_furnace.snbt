@@ -1,0 +1,10 @@
+{
+	id: "7D86EBF9260E2583"
+	group: ""
+	order_index: 5
+	filename: "chapter_6_the_road_to_the_arc_furnace"
+	title: "Chapter 6: The Road to the Arc Furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

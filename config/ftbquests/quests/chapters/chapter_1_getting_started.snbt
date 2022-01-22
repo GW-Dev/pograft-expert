@@ -1,0 +1,126 @@
+{
+	id: "2E216BC5A3A3B820"
+	group: "016AD6FDA35F5969"
+	order_index: 0
+	filename: "chapter_1_getting_started"
+	title: "Chapter 1: Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -25.0d
+			y: -5.5d
+			description: ["You will need to get some steel to progress. You should probably automate it. Make a blast furnace."]
+			dependencies: ["41E54B136C2EC224"]
+			id: "4B8ABEF1FBBFC447"
+			tasks: [{
+				id: "01049774C2B49544"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
+		}
+		{
+			x: -28.0d
+			y: -5.5d
+			description: ["Make a coke oven so you can make steel."]
+			dependency_requirement: "one_completed"
+			id: "41E54B136C2EC224"
+			tasks: [{
+				id: "10C8C3FE57CE6E72"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+		}
+		{
+			x: -28.0d
+			y: -7.5d
+			description: ["Start Create. get some power gen up and running."]
+			id: "22C5913037D3B97D"
+			tasks: [{
+				id: "342E9E815A2F6732"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -21.5d
+			y: -6.5d
+			description: ["To make brass, you'll need a blaze burner. It needs steel plates."]
+			dependencies: [
+				"65E593C85DA28684"
+				"4B8ABEF1FBBFC447"
+				"0E69EDCF9D99653E"
+			]
+			dependency_requirement: "one_completed"
+			id: "2891DEE699289075"
+			tasks: [
+				{
+					id: "1D1851750C41CF19"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+				{
+					id: "359584375D3F6314"
+					type: "item"
+					item: "create:brass_ingot"
+				}
+			]
+		}
+		{
+			x: -25.0d
+			y: -7.5d
+			dependencies: ["22C5913037D3B97D"]
+			id: "65E593C85DA28684"
+			tasks: [
+				{
+					id: "3BFE20E1FB56187D"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "210CBBE07840C925"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -6.5d
+			dependencies: ["2E4251ED7C06DF58"]
+			id: "7FEB9D7DC2F1D5BE"
+			tasks: [{
+				id: "32108AA7E9E98745"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: -17.5d
+			y: -7.0d
+			dependencies: ["2891DEE699289075"]
+			id: "2E4251ED7C06DF58"
+			tasks: [{
+				id: "26221A43FEB4819B"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: [
+				"4B8ABEF1FBBFC447"
+				"7FEB9D7DC2F1D5BE"
+			]
+			hide: false
+			id: "154812811D291BF9"
+			tasks: [{
+				id: "619A25B99939A2F9"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+	]
+}

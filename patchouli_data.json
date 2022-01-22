@@ -1,0 +1,61 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "occultism:dictionary_of_spirits": {
+      "viewedEntries": [
+        "occultism:getting_started/spirit_fire",
+        "occultism:getting_started/datura",
+        "occultism:getting_started/first_ritual"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:getting_started/first_ritual",
+        "occultism:getting_started/datura",
+        "occultism:getting_started/spirit_fire"
+      ],
+      "completedManualQuests": []
+    },
+    "advancedperipherals:manual": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:source/source_jar",
+        "ars_nouveau:source/relay",
+        "ars_nouveau:source/relay_splitter",
+        "ars_nouveau:source/mycelial_sourcelink",
+        "ars_nouveau:source/alchemical_sourcelink",
+        "ars_nouveau:source/agronomic_sourcelink",
+        "ars_nouveau:getting_started/obtaining_gems",
+        "ars_nouveau:equipment/dowsing_rod",
+        "ars_nouveau:getting_started/source",
+        "ars_nouveau:getting_started/world_generation",
+        "ars_nouveau:machines/imbuement_chamber",
+        "ars_nouveau:resources/sourceberry",
+        "ars_nouveau:getting_started/new_glyphs",
+        "ars_nouveau:machines/glyph_press"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:machines/glyph_press",
+        "ars_nouveau:getting_started/new_glyphs",
+        "ars_nouveau:getting_started/world_generation",
+        "ars_nouveau:resources/sourceberry",
+        "ars_nouveau:machines/imbuement_chamber",
+        "ars_nouveau:getting_started/obtaining_gems",
+        "ars_nouveau:getting_started/source",
+        "ars_nouveau:equipment/dowsing_rod",
+        "ars_nouveau:source/agronomic_sourcelink",
+        "ars_nouveau:source/alchemical_sourcelink",
+        "ars_nouveau:source/mycelial_sourcelink",
+        "ars_nouveau:source/relay_splitter",
+        "ars_nouveau:source/relay"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

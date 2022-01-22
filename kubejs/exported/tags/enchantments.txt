@@ -1,0 +1,23 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 5, 2022, 3:31:14 PM
+
+#forbidden_arcanus:modifier/fiery_incompatible
+- minecraft:silk_touch
+
+#forbidden_arcanus:modifier/eternal_incompatible
+- minecraft:unbreaking
+- minecraft:mending
+
+#tetra:exclusions/blunt_weapon
+- minecraft:sharpness
+
+#tetra:additions/throwable
+- minecraft:loyalty
+- minecraft:channeling
+
+#tetra:exclusions/pointy_weapon
+- minecraft:loyalty
+- minecraft:channeling
+
+#forbidden_arcanus:indestructible_blacklisted
+- minecraft:unbreaking
+- minecraft:mending

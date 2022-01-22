@@ -1,0 +1,10 @@
+
+#Dynamic Lights Settings
+[Settings]
+
+	[Settings.Misc]
+		"Enable Elytra Flight From Ground" = true
+		"Enable Take Off Mechanic" = true
+		"Infinite Rockets" = true
+		"Flight Ring Also Works As Elytra" = true
+

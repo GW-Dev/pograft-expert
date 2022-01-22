@@ -1,0 +1,123 @@
+[12:09:36] [INFO ] Loaded script server_scripts:unify/unify.js in 0.002 s
+[12:09:36] [INFO ] Loaded script server_scripts:recipes/ae2.js in 0.001 s
+[12:09:36] [INFO ] Loaded script server_scripts:recipes/create.js in 0.001 s
+[12:09:36] [INFO ] Loaded script server_scripts:recipes/immersiveengineering.js in 0.001 s
+[12:09:36] [INFO ] Loaded script server_scripts:recipes/magic.js in 0.0 s
+[12:09:36] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[12:09:36] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[12:09:36] [INFO ] Loaded 6/6 KubeJS server scripts in 0.011 s
+[12:09:36] [INFO ] Scripts loaded
+[12:09:36] [INFO ] Scanning recipes...
+[12:09:36] [INFO ] [game_events] Found 2 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [mob_effects] Found 1 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [enchantments] Found 6 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [functions] Found 1 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [block_entity_types] Found 2 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [fluids] Found 25 tags, added 0 objects, removed 0 objects
+[12:09:36] [INFO ] [entity_types] Found 77 tags, added 0 objects, removed 0 objects
+[12:09:37] [INFO ] [blocks] Found 567 tags, added 0 objects, removed 0 objects
+[12:09:37] [INFO ] [items] Found 920 tags, added 0 objects, removed 0 objects
+[12:09:40] [WARN ] Failed to parse recipe 'buddycardsexp:malum/runewood_card_display[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'buddycardsexp:runewood_card_display'
+[12:09:40] [WARN ] Failed to parse recipe buddycardsexp:malum/runewood_card_display[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'buddycardsexp:runewood_card_display'
+[12:09:40] [WARN ] Failed to parse recipe createaddition:mechanical_crafting/overcharged_hammer[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'createaddition:overcharged_alloy'
+[12:09:40] [WARN ] Failed to parse recipe 'createaddition:mechanical_crafting/overcharged_hammer[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'createaddition:overcharged_alloy'
+[12:09:40] [WARN ] Failed to parse recipe buddycardsexp:malum/soulwood_card_display[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'buddycardsexp:soulwood_card_display'
+[12:09:40] [WARN ] Failed to parse recipe 'buddycardsexp:malum/soulwood_card_display[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'buddycardsexp:soulwood_card_display'
+[12:09:40] [INFO ] Found 10305 recipes and 0 failed recipes in 167.1 ms
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:4: - ae2:network/cells/item_storage_components_cell_1k_part[minecraft:crafting_shaped]: ['#forge:dusts/redstone', '#ae2:all_certus_quartz', 'ae2:logic_processor'] -> ['ae2:cell_component_1k']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:5: - ae2:network/blocks/controller[minecraft:crafting_shaped]: ['ae2:smooth_sky_stone_block', 'ae2:fluix_crystal', 'ae2:engineering_processor'] -> ['ae2:controller']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:6: - ae2:materials/formationcore[minecraft:crafting_shaped]: ['#ae2:all_certus_quartz', '#forge:dusts/fluix', 'ae2:logic_processor'] -> ['2x ae2:formation_core']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:7: - ae2:materials/annihilationcore[minecraft:crafting_shaped]: ['#ae2:all_nether_quartz', '#forge:dusts/fluix', 'ae2:logic_processor'] -> ['2x ae2:annihilation_core']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:10: + kubejs:shaped: ['minecraft:redstone', 'ae2:logic_processor', '#forge:gems/certus_quartz', 'immersiveengineering:storage_steel'] -> ['ae2:cell_component_1k']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:10: + kubejs:shaped: ['immersiveengineering:storage_steel', 'ae2:engineering_processor', 'create:electron_tube', '#forge:gems/fluix'] -> ['ae2:controller']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:10: + kubejs:shaped: ['create:precision_mechanism', 'ae2:logic_processor', 'ae2:fluix_dust', '#forge:gems/certus_quartz'] -> ['ae2:formation_core']
+[12:09:40] [INFO ] server_scripts:recipes/ae2.js:10: + kubejs:shaped: ['create:precision_mechanism', 'ae2:logic_processor', 'ae2:fluix_dust', '#forge:gems/quartz'] -> ['ae2:annihilation_core']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:6: - create:crafting/materials/electron_tube[minecraft:crafting_shaped]: ['create:polished_rose_quartz', 'minecraft:redstone_torch', '#forge:nuggets/iron'] -> ['create:electron_tube']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:7: - create:crafting/kinetics/empty_blaze_burner[minecraft:crafting_shaped]: ['minecraft:iron_bars', '#forge:plates/iron'] -> ['create:empty_blaze_burner']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:smelting/ingot_constantan_from_dust[minecraft:smelting]: ['immersiveengineering:dust_constantan'] -> ['immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:crafting/storage_constantan_to_ingot_constantan[minecraft:crafting_shapeless]: ['immersiveengineering:storage_constantan'] -> ['9x immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:smelting/ingot_constantan_from_dust_from_blasting[minecraft:blasting]: ['immersiveengineering:dust_constantan'] -> ['immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:arcfurnace/dust_constantan[immersiveengineering:arc_furnace]: ['#forge:dusts/constantan'] -> ['immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - createaddition:compat/immersiveengineering/constantan[create:mixing]: ['#forge:ingots/nickel', '#forge:ingots/copper'] -> ['2x immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:alloysmelter/constantan[immersiveengineering:alloy]: ['#forge:ingots/copper', '#forge:ingots/nickel'] -> ['2x immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:arcfurnace/alloy_constantan[immersiveengineering:arc_furnace]: ['#forge:ingots/copper', '#forge:ingots/nickel'] -> ['2x immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:8: - immersiveengineering:crafting/nugget_constantan_to_ingot_constantan[minecraft:crafting_shaped]: ['#forge:nuggets/constantan', 'immersiveengineering:nugget_constantan'] -> ['immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:smelting/ingot_electrum_from_dust[minecraft:smelting]: ['immersiveengineering:dust_electrum'] -> ['immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:crafting/storage_electrum_to_ingot_electrum[minecraft:crafting_shapeless]: ['immersiveengineering:storage_electrum'] -> ['9x immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - createaddition:compat/immersiveengineering/electrum[create:mixing]: ['#forge:ingots/gold', '#forge:ingots/silver'] -> ['2x immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:smelting/ingot_electrum_from_dust_from_blasting[minecraft:blasting]: ['immersiveengineering:dust_electrum'] -> ['immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:crafting/nugget_electrum_to_ingot_electrum[minecraft:crafting_shaped]: ['#forge:nuggets/electrum', 'immersiveengineering:nugget_electrum'] -> ['immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:arcfurnace/alloy_electrum[immersiveengineering:arc_furnace]: ['#forge:ingots/gold', '#forge:ingots/silver'] -> ['2x immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:arcfurnace/dust_electrum[immersiveengineering:arc_furnace]: ['#forge:dusts/electrum'] -> ['immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:9: - immersiveengineering:alloysmelter/electrum[immersiveengineering:alloy]: ['#forge:ingots/gold', '#forge:ingots/silver'] -> ['2x immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:10: - immersiveengineering:crafting/alloybrick[minecraft:crafting_shaped]: ['#forge:sandstone', '#forge:ingots/brick'] -> ['2x immersiveengineering:alloybrick']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:10: - immersiveengineering:crafting/alloybrick_from_slab[minecraft:crafting_shaped]: ['immersiveengineering:slab_alloybrick'] -> ['immersiveengineering:alloybrick']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:11: - immersiveengineering:crafting/alloybrick_to_slab[minecraft:crafting_shaped]: ['immersiveengineering:alloybrick'] -> ['6x immersiveengineering:slab_alloybrick']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:16: + create:mixing: ['#forge:ingots/gold', '#forge:ingots/silver'] -> ['immersiveengineering:ingot_electrum']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:21: + create:mixing: ['#forge:ingots/nickel', '#forge:ingots/copper'] -> ['immersiveengineering:ingot_constantan']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:23: + kubejs:shaped: ['create:polished_rose_quartz', 'minecraft:diamond', 'immersiveengineering:nugget_steel'] -> ['create:electron_tube']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:23: + kubejs:shaped: ['create:polished_rose_quartz', 'create:precision_mechanism', 'immersiveengineering:nugget_steel'] -> ['create:electron_tube']
+[12:09:40] [INFO ] server_scripts:recipes/create.js:23: + kubejs:shaped: ['minecraft:iron_bars', 'immersiveengineering:plate_steel'] -> ['create:empty_blaze_burner']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:4: - immersiveengineering:crafting/cloche[minecraft:crafting_shaped]: ['#forge:glass', '#forge:treated_wood', 'immersiveengineering:electron_tube', 'immersiveengineering:component_iron'] -> ['immersiveengineering:cloche']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:5: - immersiveengineering:crafting/furnace_heater[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:ingots/copper', 'immersiveengineering:coil_lv', '#forge:dusts/redstone'] -> ['createaddition:heater']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:6: - immersiveengineering:crafting/conveyor_basic[minecraft:crafting_shaped]: ['#forge:leather', '#forge:ingots/iron', '#forge:dusts/redstone'] -> ['8x immersiveengineering:conveyor_basic']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:7: - immersiveengineering:crafting/coil_lv[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'immersiveengineering:wirecoil_copper'] -> ['immersiveengineering:coil_lv']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:8: - immersiveengineering:crafting/coil_mv[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'immersiveengineering:wirecoil_electrum'] -> ['immersiveengineering:coil_mv']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:9: - immersiveengineering:crafting/coil_hv[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'immersiveengineering:wirecoil_steel'] -> ['immersiveengineering:coil_hv']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:10: - immersiveengineering:crafting/dynamo[minecraft:crafting_shaped]: ['#forge:ingots/iron', 'immersiveengineering:coil_lv', '#forge:dusts/redstone'] -> ['immersiveengineering:dynamo']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:11: - immersiveengineering:crafting/sheetmetal_steel[minecraft:crafting_shaped]: ['#forge:plates/steel'] -> ['4x immersiveengineering:sheetmetal_steel']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:12: - immersiveengineering:crafting/sheetmetal_iron[minecraft:crafting_shaped]: ['#forge:plates/iron'] -> ['4x immersiveengineering:sheetmetal_iron']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:13: - occultism:crafting/sacrificial_bowl[minecraft:crafting_shaped]: ['occultism:otherstone'] -> ['occultism:sacrificial_bowl']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:14: - forbidden_arcanus:enchanted_golden_apple[minecraft:crafting_shaped]: ['forbidden_arcanus:arcane_gold_ingot', 'minecraft:apple'] -> ['minecraft:enchanted_golden_apple']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:15: - immersiveengineering:crafting/insulating_glass[immersiveengineering:turn_and_copy]: ['#forge:glass', '#forge:dusts/iron', '#forge:dyes/green'] -> ['2x immersiveengineering:insulating_glass']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:16: - immersiveengineering:crafting/blastbrick_reinforced[minecraft:crafting_shapeless]: ['immersiveengineering:blastbrick', '#forge:plates/steel'] -> ['immersiveengineering:blastbrick_reinforced']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:19: - ars_nouveau:imbuement_chamber[minecraft:crafting_shaped]: ['ars_nouveau:archwood_planks', '#forge:ingots/gold'] -> ['ars_nouveau:imbuement_chamber']
+[12:09:40] [INFO ] ~ cyclic:apple_sprout_emerald[minecraft:crafting_shaped]: OUT 'cyclic:apple_sprout_emerald' -> 'cyclic:apple_emerald'
+[12:09:40] [INFO ] ~ cyclic:apple_sprout_diamond[minecraft:crafting_shaped]: OUT 'cyclic:apple_sprout_diamond' -> 'cyclic:apple_diamond'
+[12:09:40] [INFO ] ~ cyclic:solidifier/solidifier_apple_enchanted[cyclic:solidifier]: IN 'minecraft:golden_apple' -> 'cyclic:apple_emerald'
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:24: ~ immersiveengineering:crafting/empty_shell[minecraft:crafting_shaped]: IN '#forge:plates/copper' -> 'immersiveengineering:empty_casing'
+[12:09:40] [INFO ] ~ ae2:network/crafting/cpu_crafting_unit[minecraft:crafting_shaped]: IN 'minecraft:iron_ingot' -> 'immersiveengineering:circuit_board'
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:27: ~ ae2:network/blocks/pattern_providers_interface[minecraft:crafting_shaped]: IN 'minecraft:iron_ingot' -> 'immersiveengineering:circuit_board'
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:28: ~ ae2:network/crafting/molecular_assembler[minecraft:crafting_shaped]: IN 'minecraft:iron_ingot' -> 'immersiveengineering:circuit_board'
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:30: + kubejs:shapeless: ['immersiveengineering:plate_steel', 'immersiveengineering:blastbrick', 'create:brass_ingot'] -> ['immersiveengineering:blastbrick_reinforced']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:32: + kubejs:shapeless: ['immersiveengineering:empty_casing', 'minecraft:gunpowder'] -> ['48x cgm:basic_bullet']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:33: + kubejs:shapeless: ['immersiveengineering:empty_casing', '2x minecraft:gunpowder'] -> ['24x cgm:advanced_bullet']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:34: + kubejs:shapeless: ['immersiveengineering:empty_shell', '2x minecraft:gunpowder', 2x '#forge:nuggets/gold'] -> ['48x cgm:shell']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:35: + kubejs:shapeless: ['immersiveengineering:plate_uranium', '2x minecraft:gunpowder', 3x '#forge:dusts/glowstone'] -> ['8x cgm:stun_grenade']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:36: + kubejs:shapeless: ['immersiveengineering:plate_uranium', '2x minecraft:gunpowder', 3x '#forge:nuggets/steel'] -> ['8x cgm:grenade']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:37: + kubejs:shapeless: ['immersiveengineering:plate_uranium', '2x minecraft:gunpowder', 3x '#forge:nuggets/uranium'] -> ['4x cgm:missile']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:39: + create:mixing: ['immersiveengineering:plate_steel', 'immersiveengineering:blastbrick', 'create:brass_ingot'] -> ['immersiveengineering:blastbrick_reinforced']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:45: + create:mixing: ['immersiveengineering:empty_casing', 'minecraft:gunpowder'] -> ['48x cgm:basic_bullet']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:50: + create:mixing: ['immersiveengineering:empty_casing', 'minecraft:gunpowder', 'minecraft:gunpowder'] -> ['24x cgm:advanced_bullet']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:56: + create:mixing: ['immersiveengineering:empty_shell', 'minecraft:gunpowder', 'minecraft:gunpowder', '#forge:nuggets/gold', '#forge:nuggets/gold'] -> ['48x cgm:shell']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:64: + create:mixing: ['immersiveengineering:plate_uranium', 'minecraft:gunpowder', 'minecraft:gunpowder', '#forge:dusts/glowstone', '#forge:dusts/glowstone', '#forge:dusts/glowstone'] -> ['8x cgm:stun_grenade']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:73: + create:mixing: ['immersiveengineering:plate_uranium', 'minecraft:gunpowder', 'minecraft:gunpowder', '#forge:dusts/steel', '#forge:dusts/steel', '#forge:nuggets/steel'] -> ['8x cgm:grenade']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:99: + create:mixing: ['#forge:dusts/glowstone', '#forge:dusts/glowstone', '#forge:dusts/glowstone', 'create:powdered_obsidian', 'create:powdered_obsidian', 'create:powdered_obsidian', 'create:polished_rose_quartz'] -> ['create:chromatic_compound']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:82: + create:mixing: ['immersiveengineering:plate_uranium', 'minecraft:gunpowder', 'minecraft:gunpowder', '#forge:dusts/uranium', '#forge:dusts/uranium', '#forge:nuggets/uranium'] -> ['4x cgm:missile']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:108: + create:mixing: ['#forge:storage_blocks/steel', '#forge:glass', '#forge:glass', 'create:powdered_obsidian', 'create:electron_tube'] -> ['2x immersiveengineering:insulating_glass']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['create:belt_connector', 'minecraft:leather', 'minecraft:iron_ingot', 'minecraft:redstone'] -> ['8x immersiveengineering:conveyor_basic']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['immersiveengineering:wirecoil_copper', 'createaddition:alternator'] -> ['immersiveengineering:coil_lv']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['immersiveengineering:wirecoil_electrum', 'createaddition:alternator'] -> ['immersiveengineering:coil_mv']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['immersiveengineering:wirecoil_steel', 'createaddition:alternator'] -> ['immersiveengineering:coil_hv']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['create:precision_mechanism', 'create:electron_tube', 'minecraft:redstone', 'immersiveengineering:coil_lv', 'immersiveengineering:ingot_steel'] -> ['immersiveengineering:dynamo']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['immersiveengineering:plate_steel', 'create:electron_tube'] -> ['4x immersiveengineering:sheetmetal_steel']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:110: + kubejs:shaped: ['#forge:plates/iron', 'create:electron_tube'] -> ['4x immersiveengineering:sheetmetal_iron']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:171: + kubejs:shaped: ['#forge:plates/steel', 'create:electron_tube', '#forge:planks/archwood', 'minecraft:gold_ingot'] -> ['ars_nouveau:imbuement_chamber']
+[12:09:40] [INFO ] server_scripts:recipes/immersiveengineering.js:181: + kubejs:shaped: ['#forge:plates/steel', 'create:electron_tube', 'occultism:otherstone', 'minecraft:gold_ingot'] -> ['occultism:sacrificial_bowl']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:4: - rootsclassic:mortar[minecraft:crafting_shaped]: ['#forge:stone'] -> ['rootsclassic:mortar']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:5: - rootsclassic:pestle2[minecraft:crafting_shaped]: ['minecraft:diorite'] -> ['rootsclassic:pestle']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:5: - rootsclassic:pestle[minecraft:crafting_shaped]: ['minecraft:diorite'] -> ['rootsclassic:pestle']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:6: - rootsclassic:altar[minecraft:crafting_shaped]: ['#forge:stone', 'minecraft:poppy', 'rootsclassic:verdant_sprig', '#forge:storage_blocks/gold', 'minecraft:chiseled_stone_bricks'] -> ['rootsclassic:altar']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:7: - rootsclassic:imbuer[minecraft:crafting_shaped]: ['#forge:rods/wooden', '#minecraft:logs', 'minecraft:chiseled_stone_bricks'] -> ['rootsclassic:imbuer']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:8: - rootsclassic:brazier[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:string', 'minecraft:cauldron', '#forge:rods/wooden'] -> ['rootsclassic:brazier']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:9: - hexerei:candle_color_red[minecraft:crafting_shapeless]: ['#hexerei:candles', 'minecraft:red_dye'] -> ['hexerei:candle_red']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:11: + kubejs:shaped: ['minecraft:cauldron', 'minecraft:iron_ingot', 'hexerei:candle_red', Item.of('hexerei:dried_sage_bundle', '{Damage:0}')] -> ['rootsclassic:brazier']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:11: + kubejs:shaped: ['#forge:stone', Item.of('hexerei:dried_sage_bundle', '{Damage:0}')] -> ['rootsclassic:mortar']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:11: + kubejs:shaped: ['#forge:stone', 'hexerei:candle_red'] -> ['rootsclassic:pestle']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:38: + kubejs:shaped: ['minecraft:gold_block', '#forge:stone', 'rootsclassic:verdant_sprig', 'hexerei:crystal_ball', 'minecraft:poppy', 'minecraft:chiseled_stone_bricks'] -> ['rootsclassic:altar']
+[12:09:40] [INFO ] server_scripts:recipes/magic.js:51: + kubejs:shaped: ['minecraft:iron_bars', 'hexerei:willow_broom', 'hexerei:candle_red', Item.of('hexerei:dried_sage_bundle', '{Damage:0}')] -> ['rootsclassic:imbuer']
+[12:09:40] [INFO ] Posted recipe events in 62.02 ms
+[12:09:40] [INFO ] Modified & removed recipes in 104.4 ms
+[12:09:40] [INFO ] Added recipes in 2.028 ms
+[12:09:40] [INFO ] Added 39 recipes, removed 46 recipes, modified 7 recipes, with 0 failed recipes and 0 fall-backed recipes

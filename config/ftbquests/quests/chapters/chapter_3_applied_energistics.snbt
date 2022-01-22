@@ -1,0 +1,179 @@
+{
+	id: "7A08614CAC5ADD8F"
+	group: "016AD6FDA35F5969"
+	order_index: 2
+	filename: "chapter_3_applied_energistics"
+	title: "Chapter 3: Applied Energistics II 'I'"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -28.0d
+			y: -3.5d
+			dependencies: ["2439E582A09C07DF"]
+			id: "5A9F13FA4F074AE5"
+			tasks: [{
+				id: "467CD5F62305E79C"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: -24.0d
+			y: -1.0d
+			shape: "gear"
+			dependencies: [
+				"5A9F13FA4F074AE5"
+				"1E3631C05D185568"
+			]
+			id: "361543FA39A85DC5"
+			tasks: [{
+				id: "186A4F63E2CE18EF"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			title: "Presses"
+			x: -41.5d
+			y: -1.0d
+			description: ["Find the presses in meteorites"]
+			dependencies: ["3ED1658A02F4ACFC"]
+			id: "352124EEA2888EEE"
+			tasks: [
+				{
+					id: "481E445BAE7CCBAF"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "41215A2F753A3401"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "582A3E014E835FD9"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "34B20CB809BB4189"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+		{
+			x: -44.0d
+			y: -1.0d
+			dependencies: [
+				"1DE690D04FE69131"
+				"7A17119D97041FDC"
+			]
+			dependency_requirement: "one_completed"
+			id: "3ED1658A02F4ACFC"
+			tasks: [{
+				id: "08CC7A1386E5EAF4"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			x: -39.5d
+			y: -1.0d
+			dependencies: ["352124EEA2888EEE"]
+			id: "7343996B97C50038"
+			tasks: [{
+				id: "40763A0BB17153D4"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			x: -28.0d
+			y: 1.5d
+			dependencies: ["2439E582A09C07DF"]
+			id: "1E3631C05D185568"
+			tasks: [{
+				id: "578851F4CD38CE8C"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			x: -37.0d
+			y: -1.0d
+			dependencies: ["7343996B97C50038"]
+			id: "2439E582A09C07DF"
+			tasks: [
+				{
+					id: "3D6ABECD976358AD"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+				{
+					id: "4C0F9FC87E46BD0A"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "0E314D55075EAA4B"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: -1.0d
+			dependencies: ["6C7E65B230AEA0DB"]
+			id: "53E80610DBB1E85C"
+			tasks: [
+				{
+					id: "7C74A132588FD15B"
+					type: "item"
+					item: "ae2:quartz_fiber"
+				}
+				{
+					id: "6C80A51BCDB88F04"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+				}
+				{
+					id: "261B9E626A469993"
+					type: "item"
+					item: "ae2:fluix_smart_dense_cable"
+				}
+				{
+					id: "5DF63F58CE2C903E"
+					type: "item"
+					item: "ae2:fluix_smart_cable"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -1.0d
+			dependencies: ["1DE690D04FE69131"]
+			id: "6C7E65B230AEA0DB"
+			tasks: [{
+				id: "5C4021AA9881F52D"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+			}]
+		}
+		{
+			x: -24.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["361543FA39A85DC5"]
+			optional: true
+			id: "2A1D9265D2CE07A9"
+			tasks: [{
+				id: "7D80FA1A2B464547"
+				type: "item"
+				item: "advancedperipherals:me_bridge"
+			}]
+		}
+	]
+}

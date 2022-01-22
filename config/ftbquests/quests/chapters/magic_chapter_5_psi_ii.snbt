@@ -1,0 +1,10 @@
+{
+	id: "7A17119D97041FDC"
+	group: "45DAB2183EC98166"
+	order_index: 4
+	filename: "magic_chapter_5_psi_ii"
+	title: "Magic Chapter 5: Psi 'II'"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

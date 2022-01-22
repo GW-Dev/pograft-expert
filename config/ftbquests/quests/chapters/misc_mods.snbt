@@ -1,0 +1,530 @@
+{
+	id: "52753FA8F1508E9E"
+	group: "320597A28A189294"
+	order_index: 0
+	filename: "misc_mods"
+	title: "Misc Mods"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -18.0d
+			y: -3.5d
+			shape: "gear"
+			dependencies: ["7A82617E953642C7"]
+			optional: true
+			id: "66042F588824FDAE"
+			tasks: [{
+				id: "1CDB3F4A854D30BB"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -2.0d
+			dependencies: ["7A82617E953642C7"]
+			optional: true
+			id: "618EFE78D6BE4042"
+			tasks: [{
+				id: "77D548D33A974D72"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			dependencies: ["618EFE78D6BE4042"]
+			optional: true
+			id: "0820554785580A65"
+			tasks: [{
+				id: "3393B42ABF827507"
+				type: "item"
+				item: "cgm:basic_bullet"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -3.5d
+			dependencies: [
+				"618EFE78D6BE4042"
+				"0820554785580A65"
+			]
+			optional: true
+			id: "4A244633582A461F"
+			tasks: [{
+				id: "7A359E16BC408FBB"
+				type: "item"
+				item: {
+					id: "cgm:pistol"
+					Count: 1b
+					tag: {
+						AmmoCount: 16
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			dependencies: ["0820554785580A65"]
+			optional: true
+			id: "18902E081C709339"
+			tasks: [{
+				id: "1A98D5188C60A3F3"
+				type: "item"
+				item: "cgm:advanced_bullet"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -3.5d
+			dependencies: ["4A244633582A461F"]
+			optional: true
+			id: "576F2A45E5F78101"
+			tasks: [{
+				id: "06354007A4BF2707"
+				type: "item"
+				item: {
+					id: "cgm:assault_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 40
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: -3.5d
+			dependencies: ["18902E081C709339"]
+			optional: true
+			id: "13B19BBFE4D17DDB"
+			tasks: [{
+				id: "07B904E02E28FF61"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 10
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			dependencies: ["18902E081C709339"]
+			hide_text_until_complete: false
+			optional: true
+			id: "451E8CD155171BAA"
+			tasks: [{
+				id: "3B29C6FD7A608DFE"
+				type: "item"
+				item: "cgm:shell"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			shape: "gear"
+			dependencies: ["451E8CD155171BAA"]
+			optional: true
+			id: "71E7E2CDBB8D795E"
+			tasks: [{
+				id: "5F97ACA67049730C"
+				type: "item"
+				item: {
+					id: "cgm:shotgun"
+					Count: 1b
+					tag: {
+						AmmoCount: 8
+					}
+				}
+			}]
+		}
+		{
+			x: -18.0d
+			y: -8.5d
+			dependencies: ["7A82617E953642C7"]
+			optional: true
+			id: "2FF34DC385AC9CC8"
+			tasks: [{
+				id: "2021DC4120AB8ED5"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "1d8607ee-3a48-4bbe-8923-22a53622ade0"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: -8.5d
+			dependencies: ["2FF34DC385AC9CC8"]
+			optional: true
+			id: "41BE8412053DC3C8"
+			tasks: [{
+				id: "42BF9757D53E5424"
+				type: "item"
+				item: "tetra:basic_workbench"
+			}]
+		}
+		{
+			title: "Find a Forge (Found Underground in Snowy Biomes)"
+			x: -14.5d
+			y: -8.5d
+			shape: "gear"
+			dependencies: ["41BE8412053DC3C8"]
+			optional: true
+			id: "36B4BEBE1D1736A5"
+			tasks: [{
+				id: "7FC245F41A5A07CB"
+				type: "item"
+				item: "tetra:seeping_bedrock"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -10.5d
+			shape: "gear"
+			dependencies: ["64CA63D6BEE3E647"]
+			hide: true
+			optional: true
+			id: "5A6891DFF75558AC"
+			tasks: [
+				{
+					id: "1C8151ADEDECE1BC"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "5FC43FFE5E747BCA"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+				{
+					id: "68C56F2FEC89132E"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -10.5d
+			dependencies: [
+				"1DE690D04FE69131"
+				"7A82617E953642C7"
+			]
+			hide: true
+			optional: true
+			id: "64CA63D6BEE3E647"
+			tasks: [{
+				id: "547D096BD8529FD7"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -6.5d
+			dependencies: ["7A82617E953642C7"]
+			optional: true
+			id: "5A09BDD554D3834F"
+			tasks: [{
+				id: "602AF05CD630C67E"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -6.5d
+			dependencies: ["5A09BDD554D3834F"]
+			optional: true
+			id: "544CF6B44D111FF6"
+			tasks: [{
+				id: "616D8EFBAB27C5D6"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -6.5d
+			dependencies: ["544CF6B44D111FF6"]
+			optional: true
+			id: "091561511E459F4C"
+			tasks: [{
+				id: "2EB4B6BEE099ED40"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -6.5d
+			dependencies: ["091561511E459F4C"]
+			optional: true
+			id: "0EAEED25B6075B60"
+			tasks: [{
+				id: "040ABA44114BF996"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			shape: "gear"
+			dependencies: ["0EAEED25B6075B60"]
+			optional: true
+			id: "6FF898B0C9947BA7"
+			tasks: [{
+				id: "4612D0654421DD45"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -5.0d
+			shape: "gear"
+			dependencies: ["7A82617E953642C7"]
+			optional: true
+			id: "49066C024B28EBB4"
+			tasks: [{
+				id: "3B9112CE222F1D53"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.0d
+			description: ["Go to: https://wiki.valhelsia.net/external-mods/forbidden-and-arcanus/wiki/blocks"]
+			dependencies: ["4EB681D196C55B1D"]
+			optional: true
+			id: "3321A83C845AC729"
+			tasks: [{
+				id: "2719375733EA11F8"
+				type: "item"
+				item: "forbidden_arcanus:hephaestus_forge"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 1.0d
+			dependencies: [
+				"176CF7C6F816FDB1"
+				"3F318EDE7CBC821F"
+			]
+			optional: true
+			id: "2C2C02D728FCF9B8"
+			tasks: [{
+				id: "1B53BECE39754C6C"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 1.0d
+			dependencies: ["7A82617E953642C7"]
+			optional: true
+			id: "176CF7C6F816FDB1"
+			tasks: [{
+				id: "063B2DB16C234073"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 1.0d
+			dependencies: ["2C2C02D728FCF9B8"]
+			optional: true
+			id: "4EB681D196C55B1D"
+			tasks: [{
+				id: "61C06D3BC59641DC"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["3321A83C845AC729"]
+			optional: true
+			id: "1BC801D98A81F533"
+			tasks: [{
+				id: "4D24C612F3FA7C8C"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -21.0d
+			y: -2.0d
+			id: "7A82617E953642C7"
+			tasks: [{
+				id: "001AF7B486383F2B"
+				type: "checkmark"
+				title: "Get all guidebooks..."
+			}]
+			rewards: [
+				{
+					id: "0B62826BDE254487"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+				}
+				{
+					id: "6FAAE0972BFA544E"
+					type: "item"
+					item: "ars_nouveau:worn_notebook"
+				}
+				{
+					id: "5A47B5A9B7BC7BBE"
+					type: "item"
+					item: "alexsmobs:animal_dictionary"
+				}
+				{
+					id: "37D27362239E9AF7"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "10606611CA2E443C"
+					type: "item"
+					item: "ars_nouveau:worn_notebook"
+				}
+				{
+					id: "6789B10D5DC7AB9E"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "advancedperipherals:manual"
+						}
+					}
+				}
+				{
+					id: "485915815D32A377"
+					type: "item"
+					item: "rootsclassic:runic_tablet"
+				}
+				{
+					id: "7FE530E45E4641F4"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "2A00C1AE36ECCC34"
+					type: "item"
+					item: "cookingforblockheads:no_filter_edition"
+				}
+				{
+					id: "1C723543292EC398"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+				{
+					id: "6CBD439BB2965607"
+					type: "item"
+					item: "cookingforblockheads:crafting_book"
+				}
+				{
+					id: "056734F64D349E19"
+					type: "item"
+					item: "occultism:dictionary_of_spirits"
+				}
+				{
+					id: "482C84B0E00285E8"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "49BB43DD0E6A00C0"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "modularrouters:book"
+						}
+					}
+				}
+				{
+					id: "114E59904A1FAD46"
+					type: "item"
+					item: "mahoutsukai:guidebook"
+				}
+				{
+					id: "6E8852D28CBB33F2"
+					type: "item"
+					item: "malum:encyclopedia_arcana"
+				}
+			]
+		}
+	]
+}

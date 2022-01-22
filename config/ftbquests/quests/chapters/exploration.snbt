@@ -1,0 +1,738 @@
+{
+	id: "11F72F79492BB1D3"
+	group: "320597A28A189294"
+	order_index: 1
+	filename: "exploration"
+	title: "Exploration"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -17.5d
+			y: -13.0d
+			id: "3F318EDE7CBC821F"
+			tasks: [{
+				id: "1B9EEBC9A06477CD"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -13.0d
+			id: "2DB114FF46C36FAD"
+			tasks: [{
+				id: "1A8C8932DCD072C3"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.0d
+			id: "17292A949DEE4AA5"
+			tasks: [{
+				id: "20CA7A5FBD91248C"
+				type: "dimension"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -10.0d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "0573D63FF048A264"
+			tasks: [{
+				id: "1C83AF1B611A6E90"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "30D7491886311928"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -14.5d
+			dependencies: ["2F829B58DAC7EC81"]
+			id: "2AA85A4FDCF0702A"
+			tasks: [{
+				id: "3C695850CB050CF1"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -14.5d
+			dependencies: ["2F829B58DAC7EC81"]
+			id: "72D9DBE9AA12BFF1"
+			tasks: [{
+				id: "2557C16F63782EAD"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -10.0d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "0E69EDCF9D99653E"
+			tasks: [{
+				id: "5C647BBDBF99C191"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0B2134B62A0E1634"
+				type: "item"
+				team_reward: false
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -16.5d
+			y: -7.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "007D439EB9BBC244"
+			tasks: [
+				{
+					id: "3BF03057CE6E2FA9"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 1L
+				}
+				{
+					id: "00A6F2E3700F975C"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "47D115EDA02BBCAF"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -6.0d
+			dependencies: ["007D439EB9BBC244"]
+			id: "486DCA46C47EEE6B"
+			tasks: [{
+				id: "439D989546C3FD86"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "548DF4D89745246F"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -16.5d
+			y: -4.5d
+			dependencies: ["486DCA46C47EEE6B"]
+			id: "3E358A8EFCC4BD1E"
+			tasks: [{
+				id: "2FBDF91B5855E4BE"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [
+				{
+					id: "004B8B1DB900D584"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "66368CEABC7BE167"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -6.0d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "6EBDD062B738F02F"
+			tasks: [{
+				id: "7DDAAC107B39CF42"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -4.5d
+			dependencies: ["6EBDD062B738F02F"]
+			id: "0706438B7C397AB9"
+			tasks: [{
+				id: "0B853765EBBDE2B5"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.5d
+			dependencies: ["0573D63FF048A264"]
+			id: "7A0B414D3B859250"
+			tasks: [{
+				id: "3AEF638BD9552E18"
+				type: "kill"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0246386E94BBCD0D"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.0d
+			dependencies: ["17292A949DEE4AA5"]
+			id: "4451E11CC5BBC690"
+			tasks: [{
+				id: "6D3831F672249EF8"
+				type: "kill"
+				entity: "the_bumblezone:honey_slime"
+				value: 3L
+			}]
+			rewards: [{
+				id: "24F679A856067597"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			dependencies: ["4451E11CC5BBC690"]
+			id: "14C42EC5CECC1700"
+			tasks: [{
+				id: "200C3BFF6E4C32BD"
+				type: "kill"
+				entity: "the_bumblezone:beehemoth"
+				value: 1L
+			}]
+			rewards: [{
+				id: "05FE7A8EBBFB4264"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -17.5d
+			id: "6C2D9BEB91E85675"
+			tasks: [{
+				id: "1164DA00BAAF0A5A"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -12.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "55886FFA8A91F60D"
+			tasks: [{
+				id: "4607FD224518A174"
+				type: "kill"
+				entity: "alexsmobs:bone_serpent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "43BEE1E3A96C15E9"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+				{
+					id: "254FBC15AF76FB4C"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -21.0d
+			y: -11.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "3C7FAA7CE22FBB5D"
+			tasks: [{
+				id: "79841708B210FAD9"
+				type: "kill"
+				entity: "alexsmobs:crimson_mosquito"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4FD9D33E8FB9DC51"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -10.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "1AF94371CC23E8E6"
+			tasks: [{
+				id: "03E2CF1CC808199F"
+				type: "kill"
+				entity: "alexsmobs:dropbear"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5C109D2C364FEC9E"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 16
+			}]
+		}
+		{
+			x: -21.5d
+			y: -12.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "6BB11A83BE30A42A"
+			tasks: [{
+				id: "68B003AA94FF725E"
+				type: "kill"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [{
+				id: "01C555BF29EE9206"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: -11.0d
+			y: -11.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "057C017DF7252282"
+			tasks: [{
+				id: "00701B416E5AAF68"
+				type: "kill"
+				entity: "alexsmobs:mimicube"
+				value: 1L
+			}]
+			rewards: [{
+				id: "028506576114E129"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -18.5d
+			y: -9.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "017DFDCE0C520088"
+			tasks: [{
+				id: "0974B344110EF70D"
+				type: "kill"
+				entity: "alexsmobs:laviathan"
+				value: 1L
+			}]
+			rewards: [{
+				id: "595AC788A2279ADE"
+				type: "item"
+				item: "occultism:silver_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: -16.0d
+			y: -9.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "209165946A0AA6E3"
+			tasks: [{
+				id: "513489A457CA6201"
+				type: "kill"
+				entity: "alexsmobs:soul_vulture"
+				value: 1L
+			}]
+			rewards: [{
+				id: "12D768A03D4E7147"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 8
+			}]
+		}
+		{
+			x: -7.0d
+			y: -11.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "43CB31E44BE14FDC"
+			tasks: [{
+				id: "449E8CBDD4506A10"
+				type: "kill"
+				entity: "alexsmobs:spectre"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2E329A04EF62A908"
+				type: "item"
+				item: "minecraft:amethyst_block"
+				count: 2
+			}]
+		}
+		{
+			x: -8.0d
+			y: -10.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "026DC2B60DC56B1C"
+			tasks: [{
+				id: "519CF910B7496886"
+				type: "kill"
+				entity: "alexsmobs:endergrade"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6388C0184E498E1D"
+				type: "item"
+				item: "immersiveengineering:storage_electrum"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "405E4038411C9E0E"
+			tasks: [{
+				id: "56F552EAA332A72D"
+				type: "kill"
+				entity: "alexsmobs:enderiophage"
+				value: 1L
+			}]
+			rewards: [{
+				id: "244C666E117EC4C5"
+				type: "item"
+				item: "minecraft:copper_block"
+				count: 16
+			}]
+		}
+		{
+			x: -15.0d
+			y: -10.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "5467AFF2932925B1"
+			tasks: [{
+				id: "464FA9B068A5DD66"
+				type: "kill"
+				entity: "alexsmobs:warped_toad"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3CC1D1ED15CD6C23"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -11.5d
+			dependencies: ["3F318EDE7CBC821F"]
+			id: "5CD204D80B7740E5"
+			tasks: [{
+				id: "29B48B277FAF0B53"
+				type: "kill"
+				entity: "alexsmobs:straddler"
+				value: 1L
+			}]
+			rewards: [{
+				id: "14EB6B80A73CAD37"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -12.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "703569886291843D"
+			tasks: [{
+				id: "0A8514559F2F241D"
+				type: "kill"
+				entity: "alexsmobs:comb_jelly"
+				value: 1L
+			}]
+			rewards: [{
+				id: "56EEFAFC67E7236C"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 16
+			}]
+		}
+		{
+			x: -11.5d
+			y: -12.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "5ACD1DFA1F9A5BE5"
+			tasks: [{
+				id: "7F1E0623F71E2F28"
+				type: "kill"
+				entity: "alexsmobs:cosmaw"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1D4311381C5F96D4"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -14.5d
+			dependencies: ["2DB114FF46C36FAD"]
+			id: "52139274D0423E98"
+			tasks: [{
+				id: "6C8DB9B015387E03"
+				type: "kill"
+				entity: "alexsmobs:cosmic_cod"
+				value: 1L
+			}]
+			rewards: [{
+				id: "03D3FA0F9420E7B8"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -19.0d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "27988BAA8E14A04C"
+			tasks: [{
+				id: "69F6422C155571FB"
+				type: "kill"
+				entity: "alexsmobs:centipede_head"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1B9F47A7553622CB"
+				type: "item"
+				item: "immersiveengineering:storage_constantan"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -15.5d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "3B70A4C8194D7B6F"
+			tasks: [{
+				id: "391E86FCCC68918E"
+				type: "kill"
+				entity: "alexsmobs:cockroach"
+				value: 1L
+			}]
+			rewards: [{
+				id: "250A65D416DC8E10"
+				type: "item"
+				item: "immersiveengineering:nugget_steel"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -17.0d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "456DA90C7DA248FD"
+			tasks: [{
+				id: "25F3E0AE2854EA1F"
+				type: "kill"
+				entity: "alexsmobs:mungus"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2A30AF014A466783"
+					type: "item"
+					item: "minecraft:netherite_block"
+				}
+				{
+					id: "75960B4CF7EC7AC8"
+					type: "item"
+					item: "minecraft:small_dripleaf"
+				}
+				{
+					id: "28F57D94ACAB4BC1"
+					type: "item"
+					item: "minecraft:big_dripleaf"
+				}
+				{
+					id: "25473751F38B1231"
+					type: "item"
+					item: "minecraft:pointed_dripstone"
+				}
+				{
+					id: "1C73BE561814CEC4"
+					type: "item"
+					item: "minecraft:dripstone_block"
+				}
+			]
+		}
+		{
+			x: -21.0d
+			y: -18.0d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "7AF44CDCC2FE081A"
+			tasks: [{
+				id: "64EC75DB9A0B2677"
+				type: "kill"
+				entity: "alexsmobs:guster"
+				value: 1L
+			}]
+			rewards: [{
+				id: "60358F9453AD8577"
+				type: "item"
+				item: "supplementaries:jar"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -16.0d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "013668EE1702AF0F"
+			tasks: [{
+				id: "5796F88D267518D8"
+				type: "kill"
+				entity: "alexsmobs:tarantula_hawk"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3BDA53D85824CD41"
+				type: "item"
+				item: "snowyspirit:sled_birch"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -16.0d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "2FEE7CB8D1ED4ADE"
+			tasks: [{
+				id: "42D429D6F60C6D81"
+				type: "kill"
+				entity: "alexsmobs:cachalot_whale"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3D4A91B3D83602B4"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+				count: 16
+			}]
+		}
+		{
+			x: -20.5d
+			y: -19.0d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "71FEC588EC9B06D2"
+			tasks: [{
+				id: "492FFA7971F42ED0"
+				type: "kill"
+				entity: "alexsmobs:froststalker"
+				value: 1L
+			}]
+			rewards: [{
+				id: "62C9E4EDFD724C0B"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: -19.0d
+			y: -15.5d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "75AED3C470233226"
+			tasks: [{
+				id: "154A1601BD640E69"
+				type: "kill"
+				entity: "alexsmobs:tusklin"
+				value: 1L
+			}]
+			rewards: [{
+				id: "52F21BBA38E85747"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 4
+			}]
+		}
+		{
+			x: -19.0d
+			y: -19.5d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "733D39113869441C"
+			tasks: [{
+				id: "550529AF908E8812"
+				type: "kill"
+				entity: "alexsmobs:rocky_roller"
+				value: 1L
+			}]
+			rewards: [{
+				id: "70816E723D4F1A4C"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 8
+			}]
+		}
+		{
+			x: -18.0d
+			y: -19.5d
+			dependencies: ["6C2D9BEB91E85675"]
+			id: "5E6C39616BE65B4D"
+			tasks: [{
+				id: "06B239C293F79308"
+				type: "kill"
+				entity: "alexsmobs:flutter"
+				value: 1L
+			}]
+			rewards: [{
+				id: "14F80F08D321856C"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -16.5d
+			description: ["Find a Portal in a house and trade for the zeal lighter with the villager. Bring a book to get the guidebook as well."]
+			id: "2F829B58DAC7EC81"
+			tasks: [{
+				id: "7C5880C562C56378"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
