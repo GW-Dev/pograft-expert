@@ -1,3 +1,0 @@
-minecraft:overworld
-the_bumblezone:the_bumblezone
-blue_skies:everbright

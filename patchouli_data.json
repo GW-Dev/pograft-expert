@@ -1,15 +1,29 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "occultism:dictionary_of_spirits": {
       "viewedEntries": [
         "occultism:getting_started/spirit_fire",
         "occultism:getting_started/datura",
-        "occultism:getting_started/first_ritual"
+        "occultism:getting_started/first_ritual",
+        "occultism:pentacles/summon_afrit",
+        "occultism:rituals/overview",
+        "occultism:rituals/item_use",
+        "occultism:rituals/sacrifice",
+        "occultism:rituals/summoning/summon_crusher",
+        "occultism:pentacles/summon_marid",
+        "occultism:pentacles/overview"
       ],
       "bookmarks": [],
       "history": [
+        "occultism:pentacles/overview",
+        "occultism:pentacles/summon_marid",
+        "occultism:rituals/summoning/summon_crusher",
+        "occultism:rituals/sacrifice",
+        "occultism:rituals/item_use",
+        "occultism:rituals/overview",
+        "occultism:pentacles/summon_afrit",
         "occultism:getting_started/first_ritual",
         "occultism:getting_started/datura",
         "occultism:getting_started/spirit_fire"

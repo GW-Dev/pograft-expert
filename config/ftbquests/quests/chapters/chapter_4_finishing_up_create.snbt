@@ -6,5 +6,26 @@
 	title: "Chapter 4: Finishing Up Create"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -17.5d
+			y: -0.5d
+			id: "25192926E4F7FE14"
+			tasks: [{
+				id: "003123C3B3A9DDAA"
+				type: "item"
+				item: "create:blaze_cake_base"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			id: "0CCA0AD423633FE1"
+			tasks: [{
+				id: "43397869DA5691C9"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+	]
 }

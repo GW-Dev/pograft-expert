@@ -58,4 +58,5 @@ onEvent('recipes', event => {
         C: 'hexerei:candle_red',
         S: 'hexerei:dried_sage_bundle'
     })
+    
 })

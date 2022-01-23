@@ -1,0 +1,22 @@
+{
+  "id": "Death-13-26-07-01-13-2022_-10-91-73",
+  "name": "Death 13:26:07 01-13-2022",
+  "icon": "journeymap:ui/img/waypoint-death-icon.png",
+  "colorizedIcon": "fake:color--12815441-waypoint-death-icon.png",
+  "x": -10,
+  "y": 91,
+  "z": -73,
+  "r": 60,
+  "g": 115,
+  "b": 175,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    "the_bumblezone:the_bumblezone"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": 0,
+  "customIconColor": false
+}

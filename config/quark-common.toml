@@ -223,15 +223,15 @@
 		"Enable Shift Lock" = true
 
 [tools]
-	Trowel = true
+	Trowel = false
 	"Slime In A Bucket" = true
 	"Seed Pouch" = true
-	Pickarang = true
+	Pickarang = false
 	"Pathfinder Maps" = true
 	"Endermosh Music Disc" = true
 	"Color Runes" = true
 	Camera = true
-	"Bundle Recipe" = true
+	"Bundle Recipe" = false
 	"Bottled Cloud" = true
 	"Beacon Redirection" = true
 	"Ancient Tomes" = true
@@ -343,7 +343,7 @@
 	"More Banner Layers" = true
 	"Lock Rotation" = true
 	"Hoe Harvesting" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Enhanced Ladders" = true
 	Emotes = true
 	"Dragon Scales" = true
@@ -1432,11 +1432,11 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
-	Backpack = true
+	Pipes = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Crate = false
+	Backpack = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
