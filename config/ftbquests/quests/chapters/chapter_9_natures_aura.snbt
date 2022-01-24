@@ -1,9 +1,9 @@
 {
 	id: "4C37DC4C15FE4E3D"
 	group: "016AD6FDA35F5969"
-	order_index: 8
+	order_index: 9
 	filename: "chapter_9_natures_aura"
-	title: "Chapter 9: Nature's Aura"
+	title: "Chapter 10: Nature's Aura is like Botania but a Magic Mod"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

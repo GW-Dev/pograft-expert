@@ -197,63 +197,6 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -10.5d
-			shape: "gear"
-			dependencies: ["64CA63D6BEE3E647"]
-			hide: true
-			optional: true
-			id: "5A6891DFF75558AC"
-			tasks: [
-				{
-					id: "1C8151ADEDECE1BC"
-					type: "item"
-					item: {
-						id: "buildinggadgets:gadget_building"
-						Count: 1b
-						tag: {
-							state: {
-								serializer: "buildinggadgets:dummy_serializer"
-								state: {
-									Name: "minecraft:air"
-								}
-								data: { }
-							}
-						}
-					}
-				}
-				{
-					id: "5FC43FFE5E747BCA"
-					type: "item"
-					item: {
-						id: "buildinggadgets:gadget_destruction"
-						Count: 1b
-						tag: {
-							overlay: 1b
-							fuzzy: 1b
-						}
-					}
-				}
-				{
-					id: "68C56F2FEC89132E"
-					type: "item"
-					item: {
-						id: "buildinggadgets:gadget_exchanging"
-						Count: 1b
-						tag: {
-							state: {
-								serializer: "buildinggadgets:dummy_serializer"
-								state: {
-									Name: "minecraft:air"
-								}
-								data: { }
-							}
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -18.0d
 			y: -10.5d
 			dependencies: [

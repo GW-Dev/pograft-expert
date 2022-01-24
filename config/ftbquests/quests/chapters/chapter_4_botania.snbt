@@ -1,9 +1,9 @@
 {
 	id: "307A724C605A33D7"
 	group: "016AD6FDA35F5969"
-	order_index: 6
+	order_index: 7
 	filename: "chapter_4_botania"
-	title: "Chapter 7: Botania"
+	title: "Chapter 8: Botania is not a Magic Mod"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

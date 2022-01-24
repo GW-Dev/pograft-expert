@@ -3,13 +3,14 @@
 	group: "016AD6FDA35F5969"
 	order_index: 3
 	filename: "chapter_4_finishing_up_create"
-	title: "Chapter 4: Finishing Up Create"
+	title: "Chapter 4: Finishing Up Create(ing Engineering Blocks)"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -17.5d
 			y: -0.5d
+			dependencies: ["7A08614CAC5ADD8F"]
 			id: "25192926E4F7FE14"
 			tasks: [{
 				id: "003123C3B3A9DDAA"
@@ -20,11 +21,94 @@
 		{
 			x: -14.5d
 			y: -0.5d
+			dependencies: ["25192926E4F7FE14"]
 			id: "0CCA0AD423633FE1"
 			tasks: [{
 				id: "43397869DA5691C9"
 				type: "item"
 				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -2.5d
+			dependencies: ["0CCA0AD423633FE1"]
+			id: "11811FA05F564F49"
+			tasks: [{
+				id: "291B4FD0808B3717"
+				type: "item"
+				item: "immersiveengineering:ingot_electrum"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.5d
+			dependencies: ["0CCA0AD423633FE1"]
+			id: "230C420DCA12E698"
+			tasks: [{
+				id: "4FD673890263C917"
+				type: "item"
+				item: "immersiveengineering:ingot_constantan"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.5d
+			dependencies: ["0CCA0AD423633FE1"]
+			id: "6F255439800F4EEC"
+			tasks: [{
+				id: "4BA42805452BA489"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			dependencies: ["6F255439800F4EEC"]
+			id: "17FC3BA4F40DC984"
+			tasks: [{
+				id: "33354CD0E39CE162"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			dependencies: ["6F255439800F4EEC"]
+			id: "5C8930733A76EFA8"
+			tasks: [{
+				id: "416125D489C8CD15"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["5C8930733A76EFA8"]
+			id: "65676BE8120C6892"
+			tasks: [{
+				id: "622191C1660BEE3C"
+				type: "item"
+				item: "create:shadow_steel_casing"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["65676BE8120C6892"]
+			id: "286CAE75F1849120"
+			tasks: [{
+				id: "045F374504DB48E4"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
 			}]
 		}
 	]

@@ -1,9 +1,9 @@
 {
 	id: "1A2A6FCE0D74FB10"
 	group: "016AD6FDA35F5969"
-	order_index: 11
+	order_index: 12
 	filename: "chapter_6_roots_and_mahou_tsukai"
-	title: "Chapter 12: Mahou Tsukai"
+	title: "Chapter 13: Fate/Stay Away"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

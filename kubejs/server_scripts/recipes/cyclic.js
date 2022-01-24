@@ -34,5 +34,4 @@ onEvent('recipes', event => {
     event.remove({output: 'cyclic:energy_pipe'})
     event.remove({output: 'cyclic:item_pipe'})
     event.remove({output: 'cyclic:fluid_pipe'})
-    event.remove({output: 'quark:pipe'})
 })

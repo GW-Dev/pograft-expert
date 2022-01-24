@@ -16,7 +16,9 @@ onEvent('recipes', event => {
     event.remove({id: 'immersiveengineering:crafting/blastbrick_reinforced'})
     event.remove({id: 'immersiveengineering:arcfurnace/ore_zinc'})
     event.remove({id: 'immersiveengineering:crafting/redstone_acid'})
+    event.remove({id: 'immersiveengineering:crafting/radiator'})
 
+    
     event.replaceInput({id: 'immersiveengineering:crafting/light_engineering'}, '#forge:ingots/copper', '#forge:ingots/brass')
     event.remove({output: 'ars_nouveau:imbuement_chamber'})
     event.replaceInput({id: 'immersiveengineering:crafting/rs_engineering'}, '#forge:ingots/copper', 'utilitix:linked_crystal')
@@ -178,7 +180,7 @@ onEvent('recipes', event => {
         S: '#forge:plates/steel',
         E: 'create:electron_tube',
         A: '#forge:planks/archwood',
-        G: 'minecraft:gold_ingot'
+        G: 'naturesaura:infused_iron'
     })
     event.shaped('occultism:sacrificial_bowl', [
         'EGE',
@@ -189,6 +191,15 @@ onEvent('recipes', event => {
         E: 'create:electron_tube',
         O: 'occultism:otherstone',
         G: 'minecraft:gold_ingot'
+    })
+    event.shaped('immersiveengineering:radiator', [
+        'SCS',
+        'CIC',
+        'SCS'
+    ], {
+        S: '#forge:sheetmetals/steel',
+        C: '#forge:plates/copper',
+        I: 'immersiveengineering:insulating_glass'
     })
     event.recipes.immersiveengineeringArcFurnace(['2x #forge:ingots/zinc'],'#forge:ores/zinc', [], '#forge:slag')
     event.recipes.immersiveengineeringArcFurnace(['13x #forge:ingots/zinc', Item.of('#forge:ingots/zinc').withChance(0.5)],'create:raw_zinc_block')

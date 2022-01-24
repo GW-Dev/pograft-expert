@@ -3,7 +3,7 @@
 	group: "016AD6FDA35F5969"
 	order_index: 0
 	filename: "chapter_1_getting_started"
-	title: "Chapter 1: Getting Started"
+	title: "Chapter 1: Let's Get Down to Business"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,9 +1,9 @@
 {
 	id: "73AE7B1C7692FAF0"
 	group: "016AD6FDA35F5969"
-	order_index: 10
+	order_index: 11
 	filename: "chapter_9_ars_nouveau"
-	title: "Chapter 11: Ars Nouveau"
+	title: "Chapter 12: Nobody Can Say 'Ars Nouveau'"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

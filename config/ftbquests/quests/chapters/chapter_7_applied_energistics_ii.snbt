@@ -1,9 +1,9 @@
 {
 	id: "53B57ACCFCCB2566"
 	group: "016AD6FDA35F5969"
-	order_index: 5
+	order_index: 6
 	filename: "chapter_7_applied_energistics_ii"
-	title: "Chapter 6: Applied Energistics II 'II'"
+	title: "Chapter 7: Applied Energistics II 'II' (lol)"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]
