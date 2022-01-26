@@ -8,13 +8,16 @@ onEvent('recipes', event => {
     event.remove({output: 'rootsclassic:brazier'})
     event.remove({id: 'hexerei:candle_color_red'})
     event.remove({id: 'ars_nouveau:imbuement_lapis'})
-
+    event.remove({output: 'mahoutsukai:mortar'})
+    event.remove({output: 'mahoutsukai:spell_cloth'})
+    event.remove({output: 'mahoutsukai:pestle'})
+    event.remove({output: 'mahoutsukai:dagger'})
+    event.remove({output: 'ars_nouveau:novice_spell_book'})
 
     event.replaceInput({id: 'ars_nouveau:imbuement_amethyst'}, 'minecraft:amethyst_shard', 'naturesaura:sky_ingot')
 
     event.replaceInput({id: 'ars_nouveau:volcanic_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:infused_iron')
     event.replaceInput({id: 'ars_nouveau:relay'}, 'minecraft:gold_ingot', 'naturesaura:infused_iron')
-    event.replaceInput({id: 'ars_nouveau:novice_spell_book'}, 'minecraft:iron_pickaxe', 'naturesaura:sky_ingot')
     event.replaceInput({id: 'ars_nouveau:scribes_table'}, '#forge:logs/archwood', 'naturesaura:sky_ingot')
     event.replaceInput({id: 'ars_nouveau:agronomic_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:infused_iron')
     event.replaceInput({id: 'ars_nouveau:source_jar'}, 'ars_nouveau:archwood_slab', 'naturesaura:sky_ingot')
@@ -28,9 +31,8 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'ars_nouveau:alchemical_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:sky_ingot')
     event.replaceInput({id: 'ars_nouveau:vitalic_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:sky_ingot')
     event.replaceInput({id: 'ars_nouveau:mycelial_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:sky_ingot')
-    event.replaceInput({id: 'mahoutsukai:dagger'}, 'minecraft:purple_dye', 'ars_nouveau:source_gem')
     
-
+    event.shapeless('ars_nouveau:novice_spell_book', ['minecraft:book', '6x naturesaura:sky_ingot', '2x naturesaura:tainted_gold_block'])
 
     event.shaped('rootsclassic:brazier', [
         'IRI',
@@ -81,6 +83,35 @@ onEvent('recipes', event => {
         B: 'hexerei:willow_broom',
         C: 'hexerei:candle_red',
         S: 'hexerei:dried_sage_bundle'
+    })
+    event.shaped('mahoutsukai:mortar', [
+        '   ',
+        'S S',
+        'SES'
+    ], {
+        S: 'ars_nouveau:source_gem_block',
+        E: 'ars_nouveau:earth_essence'
+    })
+    
+    event.shaped('mahoutsukai:pestle', [
+        ' F ',
+        'SF ',
+        'SS '
+    ], {
+        S: 'ars_nouveau:source_gem_block',
+        F: 'ars_elemental:fire_focus'
+    })
+
+    event.shaped('mahoutsukai:dagger', [
+        ' S ',
+        'DBW',
+        ' C '
+    ], {
+        S: 'ars_nouveau:starbuncle_shards',
+        W: 'ars_nouveau:wixie_shards',
+        D: 'ars_nouveau:whirlisprig_shards',
+        C: 'ars_elemental:necrotic_focus',
+        B: 'ars_nouveau:enchanters_sword'
     })
     
 })
