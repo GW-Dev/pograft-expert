@@ -1,0 +1,13 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "minecraft:overworld", x: -121, y: 65, z: -13, time: 1643157364726L }
+	recording: 0
+	teleport_history: [
+		{ dim: "blue_skies:everdawn", x: 286, y: 70, z: 1545, time: 1642956590264L }
+		{ dim: "minecraft:overworld", x: 241, y: -1, z: 167, time: 1642992282924L }
+	]
+	homes: { }
+}

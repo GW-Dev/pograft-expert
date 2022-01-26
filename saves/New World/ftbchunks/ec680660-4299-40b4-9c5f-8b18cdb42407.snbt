@@ -1,0 +1,15 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	extra_claim_chunks: 0
+	extra_force_load_chunks: 0
+	force_load_members: ["ec680660-4299-40b4-9c5f-8b18cdb42407"]
+	chunks: {
+		"minecraft:overworld": [
+			{ x: -15, z: -11, time: 1642978786481L }
+			{ x: -14, z: -10, time: 1642978786481L }
+			{ x: -14, z: -11, time: 1642978786481L }
+			{ x: -13, z: -10, time: 1642978786481L }
+		]
+	}
+}
