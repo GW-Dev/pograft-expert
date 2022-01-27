@@ -274,23 +274,6 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: -5.0d
-			shape: "gear"
-			dependencies: ["7A82617E953642C7"]
-			optional: true
-			id: "49066C024B28EBB4"
-			tasks: [{
-				id: "3B9112CE222F1D53"
-				type: "item"
-				item: {
-					id: "tiab:time_in_a_bottle"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			x: -12.5d
 			y: 1.0d
 			description: ["Go to: https://wiki.valhelsia.net/external-mods/forbidden-and-arcanus/wiki/blocks"]

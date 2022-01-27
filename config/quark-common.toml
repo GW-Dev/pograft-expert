@@ -1432,7 +1432,7 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Pipes = false
+	Pipes = true
 	"Matrix Enchanting" = false
 	Magnets = false
 	Crate = false

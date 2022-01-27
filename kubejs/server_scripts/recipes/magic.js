@@ -9,10 +9,16 @@ onEvent('recipes', event => {
     event.remove({id: 'hexerei:candle_color_red'})
     event.remove({id: 'ars_nouveau:imbuement_lapis'})
     event.remove({output: 'mahoutsukai:mortar'})
-    event.remove({output: 'mahoutsukai:spell_cloth'})
+    event.remove({output: 'mahoutsukai:hammer'})
     event.remove({output: 'mahoutsukai:pestle'})
     event.remove({output: 'mahoutsukai:dagger'})
     event.remove({output: 'ars_nouveau:novice_spell_book'})
+    event.remove({output: 'buddycards:buddysteel_blend'})
+    event.remove({output: 'buddycards:buddysteel_ingot_blast'})
+    event.remove({output: 'occultism:crafting/chalk_white_impure'})
+    event.remove({output: 'mahoutsukai:mana_circuit_magitech'})
+    event.remove({output: 'mahoutsukai:spell_cloth'})
+    event.remove({id: 'occultism:crafting/chalk_white_impure'})
 
     event.replaceInput({id: 'ars_nouveau:imbuement_amethyst'}, 'minecraft:amethyst_shard', 'naturesaura:sky_ingot')
 
@@ -31,8 +37,48 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'ars_nouveau:alchemical_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:sky_ingot')
     event.replaceInput({id: 'ars_nouveau:vitalic_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:sky_ingot')
     event.replaceInput({id: 'ars_nouveau:mycelial_sourcelink'}, 'minecraft:gold_ingot', 'naturesaura:sky_ingot')
-    
+    event.replaceInput({id: 'ars_nouveau:enchanters_sword'}, 'minecraft:gold_ingot', 'naturesaura:tainted_gold_block')
+    event.replaceInput({id: 'mahoutsukai:mana_circut_magitech'}, 'minecraft:iron_ingot', 'naturesaura:sky_ingot')
+    event.replaceInput({id: 'computercraft:pocket_computer_advanced'}, 'minecraft:gold_ingot', 'immersiveengineering:ingot_electrum')
+    event.replaceInput({id: 'computercraft:wireless_modem_advanced'}, 'minecraft:gold_ingot', 'immersiveengineering:ingot_electrum')
+    event.replaceInput({id: 'computercraft:computer_advanced_upgrade'}, 'minecraft:gold_ingot', 'immersiveengineering:ingot_electrum')
+    event.replaceInput({id: 'computercraft:turtle_normal'}, 'minecraft:iron_ingot', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:monitor_advanced'}, 'minecraft:gold_ingot', 'immersiveengineering:ingot_electrum')
+    event.replaceInput({id: 'computercraft:computer_normal'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:monitor_normal'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:printer'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:speaker'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:disk_drive'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:cable'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:wired_modem'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'computercraft:wireless_modem_normal'}, '#forge:stone', 'immersiveengineering:ingot_steel')
+    event.replaceInput({id: 'advancedperipherals:peripheral_casing'}, 'minecraft:iron_ingot', 'immersiveengineering:storage_electrum')
+    event.replaceInput({id: 'advancedperipherals:memory_card'}, 'minecraft:iron_ingot', 'immersiveengineering:storage_electrum')
+    event.replaceInput({id: 'buddycards:golden_grading_sleeve'}, 'minecraft:gold_nugget', 'immersiveengineering:storage_electrum')
+    event.replaceInput({id: 'buddycards:golden_grading_sleeves'}, 'minecraft:gold_nugget', 'immersiveengineering:storage_electrum')
+    event.replaceInput({id: 'buddycards:grading_sleeves'}, 'minecraft:glass_pane', 'ae2:quartz_vibrant_glass')
+    event.replaceInput({id: 'buddycards:grading_sleeves_bulk'}, 'minecraft:glass_pane', 'ae2:quartz_vibrant_glass')
+    event.replaceInput({id: 'buddycardsexp:create/buddysteel_ingot'}, '#forge:storage_blocks/iron', '#forge:storage_blocks/steel')
+    event.replaceInput({id: 'occultism:crafting/chalk_gold_impure'}, '#forge:dusts/gold', 'naturesaura:tainted_gold_block')
+    event.replaceInput({id: 'occultism:crafting/chalk_purple_impure'}, 'occultism:crushed_end_stone', 'mahoutsukai:mana_circuit')
+
     event.shapeless('ars_nouveau:novice_spell_book', ['minecraft:book', '6x naturesaura:sky_ingot', '2x naturesaura:tainted_gold_block'])
+    event.shapeless('mahoutsukai:spell_cloth', ['ars_nouveau:spell_parchment', Item.of('mahoutsukai:dagger').ignoreNBT()]).keepIngredient(Item.of('mahoutsukai:dagger').ignoreNBT())
+
+    event.recipes.createMixing('mahoutsukai:spell_cloth', [
+        'ars_nouveau:spell_parchment',
+        Item.of('mahoutsukai:dagger').ignoreNBT()
+    ]).keepIngredient(Item.of('mahoutsukai:dagger').ignoreNBT())
+
+    event.shaped('occultism:chalk_white_impure', [
+        'OAI',
+        'OAI',
+        'OAI'
+    ], {
+        O: 'occultism:burnt_otherstone',
+        I: 'mahoutsukai:fae_essence',
+        A: 'occultism:otherworld_ashes'
+    }),
 
     event.shaped('rootsclassic:brazier', [
         'IRI',
