@@ -13,6 +13,7 @@ onEvent('jei.add.items', event => {
 onEvent('jei.hide.items', event => {
 	// Hide items in JEI here
 	// event.hide('minecraft:cobblestone')
+  event.hide('ae2:quartz_growth_accelerator')
 	event.hide('immersiveengineering:cloche'),
 	event.hide('immersiveengineering:furnace_heater')
 	event.hide('immersiveengineering:alloybrick')

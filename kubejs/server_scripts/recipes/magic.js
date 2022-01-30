@@ -61,7 +61,10 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'buddycardsexp:create/buddysteel_ingot'}, '#forge:storage_blocks/iron', '#forge:storage_blocks/steel')
     event.replaceInput({id: 'occultism:crafting/chalk_gold_impure'}, '#forge:dusts/gold', 'naturesaura:tainted_gold_block')
     event.replaceInput({id: 'occultism:crafting/chalk_purple_impure'}, 'occultism:crushed_end_stone', 'mahoutsukai:mana_circuit')
-
+    event.replaceInput({id: 'occultism:spirit_fire/purified_ink'}, 'minecraft:black_dye', 'mahoutsukai:spell_cloth')
+    event.replaceInput({type: 'occultism:ritual'}, 'minecraft:gold_ingot', '#forge:ingots/electrum')
+    event.replaceInput({id: 'occultism:crafting/golden_sacrificial_bowl'}, 'minecraft:gold_ingot', '#forge:storage_blocks/constantan')
+    event.replaceInput({id: 'occultism:spirit_fire/spirit_attuned_gem'}, 'minecraft:diamond', 'ars_nouveau:source_gem_block')
     event.shapeless('ars_nouveau:novice_spell_book', ['minecraft:book', '6x naturesaura:sky_ingot', '2x naturesaura:tainted_gold_block'])
     event.shapeless('mahoutsukai:spell_cloth', ['ars_nouveau:spell_parchment', Item.of('mahoutsukai:dagger').ignoreNBT()]).keepIngredient(Item.of('mahoutsukai:dagger').ignoreNBT())
 
@@ -158,6 +161,26 @@ onEvent('recipes', event => {
         D: 'ars_nouveau:whirlisprig_shards',
         C: 'ars_elemental:necrotic_focus',
         B: 'ars_nouveau:enchanters_sword'
+    })
+    event.shaped('ars_nouveau:imbuement_chamber', [
+        'AGA',
+        'ESE',
+        'AGA'
+    ], {
+        S: '#forge:plates/steel',
+        E: 'create:electron_tube',
+        A: '#forge:planks/archwood',
+        G: 'naturesaura:infused_iron'
+    })
+    event.shaped('occultism:sacrificial_bowl', [
+        'EGE',
+        'OSO',
+        'OOO'
+    ], {
+        S: 'mahoutsukai:mana_circuit',
+        E: 'ars_elemental:necrotic_focus',
+        O: 'occultism:otherstone',
+        G: 'mahoutsukai:fae_essence'
     })
     
 })

@@ -46,6 +46,16 @@ onEvent('recipes', event => {
         I: 'minecraft:iron_bars',
         S: 'immersiveengineering:plate_steel'
     })
+    event.recipes.createMixing('create:chromatic_compound', [
+        '#forge:dusts/glowstone',
+        '#forge:dusts/glowstone',
+        '#forge:dusts/glowstone',
+        'create:powdered_obsidian',
+        'create:powdered_obsidian',
+        'create:powdered_obsidian',
+        'create:polished_rose_quartz'
+      ]).superheated()
+
 })
 
 onEvent('fluid.tags', event => {

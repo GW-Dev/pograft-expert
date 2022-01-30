@@ -27,9 +27,7 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'cyclic:solidifier/solidifier_apple_enchanted'}, 'minecraft:golden_apple', 'cyclic:apple_emerald')
     event.replaceInput({id: 'immersiveengineering:crafting/empty_shell'}, '#forge:plates/copper', 'immersiveengineering:empty_casing')
     event.replaceInput({id: 'immersiveengineering:crafting/heavy_engineering'}, '#forge:ingots/electrum', 'create:shadow_steel_casing')
-    event.replaceInput({id: 'ae2:network/crafting/cpu_crafting_unit'}, 'minecraft:iron_ingot', 'immersiveengineering:circuit_board')
-    event.replaceInput({id: 'ae2:network/blocks/pattern_providers_interface'}, 'minecraft:iron_ingot', 'immersiveengineering:circuit_board')
-    event.replaceInput({id: 'ae2:network/crafting/molecular_assembler'}, 'minecraft:iron_ingot', 'immersiveengineering:circuit_board')
+    
 
     event.shapeless('1x immersiveengineering:blastbrick_reinforced', ['immersiveengineering:plate_steel', 'immersiveengineering:blastbrick', 'create:brass_ingot'])
 
@@ -92,15 +90,7 @@ onEvent('recipes', event => {
         '#forge:nuggets/uranium'
       ])
     
-    event.recipes.createMixing('create:chromatic_compound', [
-        '#forge:dusts/glowstone',
-        '#forge:dusts/glowstone',
-        '#forge:dusts/glowstone',
-        'create:powdered_obsidian',
-        'create:powdered_obsidian',
-        'create:powdered_obsidian',
-        'create:polished_rose_quartz'
-      ]).superheated()
+    
     
     event.recipes.createMixing('2x immersiveengineering:insulating_glass', [
         '#forge:storage_blocks/steel',
@@ -172,26 +162,7 @@ onEvent('recipes', event => {
         I: '#forge:plates/iron',
         E: 'create:electron_tube'
     })
-    event.shaped('ars_nouveau:imbuement_chamber', [
-        'AGA',
-        'ESE',
-        'AGA'
-    ], {
-        S: '#forge:plates/steel',
-        E: 'create:electron_tube',
-        A: '#forge:planks/archwood',
-        G: 'naturesaura:infused_iron'
-    })
-    event.shaped('occultism:sacrificial_bowl', [
-        'EGE',
-        'OSO',
-        'OOO'
-    ], {
-        S: '#forge:plates/steel',
-        E: 'create:electron_tube',
-        O: 'occultism:otherstone',
-        G: 'minecraft:gold_ingot'
-    })
+    
     event.shaped('immersiveengineering:radiator', [
         'SCS',
         'CIC',
@@ -201,122 +172,6 @@ onEvent('recipes', event => {
         C: '#forge:plates/copper',
         I: 'immersiveengineering:insulating_glass'
     })
-    event.recipes.immersiveengineeringArcFurnace(['2x #forge:ingots/zinc'],'#forge:ores/zinc', [], '#forge:slag')
-    event.recipes.immersiveengineeringArcFurnace(['13x #forge:ingots/zinc', Item.of('#forge:ingots/zinc').withChance(0.5)],'create:raw_zinc_block')
-    event.recipes.immersiveengineeringArcFurnace(['1x #forge:ingots/zinc'],'create:crushed_zinc_ore')
-    event.recipes.immersiveengineeringArcFurnace(['#forge:ingots/zinc', Item.of('#forge:ingots/zinc').withChance(0.5)],'create:raw_zinc')
-
-    event.recipes.createCrushing([
-        'create:crushed_nickel_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_ores/nickel')
-    event.recipes.createCrushing([
-        '2x create:crushed_nickel_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_nickel_ore').withChance(0.25),
-        Item.of('minecraft:cobbled_deepslate').withChance(0.12)
-      ], 'immersiveengineering:deepslate_ore_nickel')
-    event.recipes.createCrushing([
-        'create:crushed_nickel_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_nickel_ore').withChance(0.75),
-        Item.of('minecraft:cobblestone').withChance(0.12)
-      ], 'immersiveengineering:ore_nickel')
-    event.recipes.createCrushing([
-        '9x create:crushed_uranium_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_blocks/uranium')
-    event.recipes.createCrushing([
-        'create:crushed_uranium_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_ores/uranium')
-    event.recipes.createCrushing([
-        '2x create:crushed_uranium_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_uranium_ore').withChance(0.25),
-        Item.of('minecraft:cobbled_deepslate').withChance(0.12)
-      ], 'immersiveengineering:deepslate_ore_uranium')
-    event.recipes.createCrushing([
-        'create:crushed_uranium_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_uranium_ore').withChance(0.75),
-        Item.of('minecraft:cobblestone').withChance(0.12)
-      ], 'immersiveengineering:ore_uranium')
-    event.recipes.createCrushing([
-        '9x create:crushed_aluminum_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_blocks/aluminum')
-    event.recipes.createCrushing([
-        'create:crushed_aluminum_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_ores/aluminum')
-    event.recipes.createCrushing([
-        '2x create:crushed_aluminum_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_aluminum_ore').withChance(0.25),
-        Item.of('minecraft:cobbled_deepslate').withChance(0.12)
-      ], 'immersiveengineering:deepslate_ore_aluminum')
-    event.recipes.createCrushing([
-        'create:crushed_aluminum_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_aluminum_ore').withChance(0.75),
-        Item.of('minecraft:cobblestone').withChance(0.12)
-      ], 'immersiveengineering:ore_aluminum')
-    event.recipes.createCrushing([
-        '9x create:crushed_lead_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_blocks/lead')
-    event.recipes.createCrushing([
-        'create:crushed_lead_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_ores/lead')
-    event.recipes.createCrushing([
-        '2x create:crushed_lead_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_lead_ore').withChance(0.25),
-        Item.of('minecraft:cobbled_deepslate').withChance(0.12)
-      ], 'immersiveengineering:deepslate_ore_lead')
-    event.recipes.createCrushing([
-        'create:crushed_lead_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_lead_ore').withChance(0.75),
-        Item.of('minecraft:cobblestone').withChance(0.12)
-      ], 'immersiveengineering:ore_lead')
-    event.recipes.createCrushing([
-        '9x create:crushed_silver_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_blocks/silver')
-    event.recipes.createCrushing([
-        'create:crushed_silver_ore',
-        Item.of('create:experience_nugget').withChance(0.75)
-      ], '#forge:raw_ores/silver')
-    event.recipes.createCrushing([
-        '2x create:crushed_silver_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_silver_ore').withChance(0.25),
-        Item.of('minecraft:cobbled_deepslate').withChance(0.12)
-      ], 'immersiveengineering:deepslate_ore_silver')
-    event.recipes.createCrushing([
-        'create:crushed_silver_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_silver_ore').withChance(0.75),
-        Item.of('minecraft:cobblestone').withChance(0.12)
-      ], 'immersiveengineering:ore_silver')
-    event.recipes.createCrushing([
-        'create:crushed_silver_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_silver_ore').withChance(0.75),
-        Item.of('minecraft:cobblestone').withChance(0.12)
-      ], 'occultism:silver_ore')
-    event.recipes.createCrushing([
-        '2x create:crushed_silver_ore',
-        Item.of('create:experience_nugget').withChance(0.75),
-        Item.of('create:crushed_silver_ore').withChance(0.25),
-        Item.of('minecraft:cobbled_deepslate').withChance(0.12)
-      ], 'occultism:silver_ore_deepslate')
-    event.recipes.immersiveengineeringCrusher('2x create:crushed_zinc_ore', '#forge:ores/zinc') // Secondary output format: {chance: 0.5, output: 'item:id'}
-    event.recipes.immersiveengineeringCrusher('12x create:crushed_zinc_ore', 'create:raw_zinc_block')
-    event.recipes.immersiveengineeringCrusher('create:crushed_zinc_ore', 'create:raw_zinc', [Item.of('create:crushed_zinc_ore').withChance(0.3333)])
-    event.recipes.immersiveengineeringCrusher('create:crushed_zinc_ore', '#forge:ingots/zinc')
+    
 })
 

@@ -15,7 +15,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 18
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["plains"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -29,7 +29,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 28
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["desert"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -43,7 +43,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["taiga", "forest", "plains"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -57,7 +57,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 16
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["desert"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -71,7 +71,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["savanna", "mesa"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -85,7 +85,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["extreme_hills", "mountain"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -99,7 +99,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 18
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["mushroom", "jungle", "swamp"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = []
@@ -113,7 +113,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 12
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["forest"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = ["forest", "flower_forest", "dark_forest", "windswept_forest"]
@@ -127,7 +127,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 16
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["forest"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = ["dark_forest", "birch_forest", "old_growth_birch_forest"]
@@ -141,7 +141,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 10
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["forest", "taiga"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = ["forest", "flower_forest", "birch_forest", "old_growth_birch_forest", "windswept_forest"]
@@ -155,7 +155,7 @@
 		#Structure separation: 
 		#Range: 0 ~ 200
 		separation = 20
-		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, mushroom, icy]
+		#Biome categories the structure can generate in: [forest, taiga, swamp, mountain, mesa, underground, extreme_hills, plains, savanna, beach, jungle, desert, icy]
 		validBiomeCategories = ["forest", "swamp"]
 		#Biomes (not biome categories!) the structure can NOT generate in
 		blacklistedBiomeCategories = ["forest", "flower_forest", "birch_forest", "old_growth_birch_forest", "windswept_forest"]
@@ -167,30 +167,34 @@
 		enabled = true
 		#Set the spawn weight: 
 		#Range: 0 ~ 100
-		weight = 45
+		weight = 7
 		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeGhoul = 2
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeGhoul = 5
-		#Allowed biomes and biome categories to spawn: 
-		biomes = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "mushroom", "icy"]
+		#Allowed biome categories to spawn: 
+		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
+		#Blacklisted biomes to spawn: 
+		blacklist_biomes = ["flower_forest", "lush_caves"]
 
 	["The Graveyard - Mob Spawning Config".revenant]
 		#Allow the Revenant to spawn: 
 		enabled = true
 		#Set the spawn weight: 
 		#Range: 0 ~ 100
-		weight = 45
+		weight = 6
 		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeRevenant = 5
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeRevenant = 8
-		#Allowed biomes and biome categories to spawn: 
-		biomes = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "mushroom", "icy"]
+		#Allowed biome categories to spawn: 
+		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
+		#Blacklisted biomes to spawn: 
+		blacklist_biomes = ["flower_forest", "lush_caves"]
 
 	["The Graveyard - Mob Spawning Config".reaper]
 		#Allow the Reaper to spawn: 
@@ -204,38 +208,44 @@
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeGhoul = 3
-		#Allowed biomes and biome categories to spawn: 
-		biomes = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "mushroom", "icy"]
+		#Allowed biome categories to spawn: 
+		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
+		#Blacklisted biomes to spawn: 
+		blacklist_biomes = ["flower_forest", "lush_caves"]
 
 	["The Graveyard - Mob Spawning Config".nightmare]
 		#Allow the Nightmare to spawn: 
 		enabled = true
 		#Set the spawn weight: 
 		#Range: 0 ~ 100
-		weight = 15
+		weight = 4
 		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeNightmare = 1
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeNightmare = 1
-		#Allowed biomes and biome categories to spawn: 
-		biomes = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "mushroom", "icy"]
+		#Allowed biome categories to spawn: 
+		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
+		#Blacklisted biomes to spawn: 
+		blacklist_biomes = ["flower_forest", "lush_caves"]
 
 	["The Graveyard - Mob Spawning Config".skeleton_creeper]
 		#Allow the Skeleton Creeper to spawn: 
 		enabled = true
 		#Set the spawn weight: 
 		#Range: 0 ~ 100
-		weight = 35
+		weight = 5
 		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeSkeletonCreeper = 1
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeSkeletonCreeper = 4
-		#Allowed biomes and biome categories to spawn: 
-		biomes = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "mushroom", "icy"]
+		#Allowed biome categories to spawn: 
+		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
+		#Blacklisted biomes to spawn: 
+		blacklist_biomes = ["flower_forest", "lush_caves"]
 
 	["The Graveyard - Mob Spawning Config".acolyte]
 		#Allow the Acolyte to spawn: 
@@ -249,8 +259,10 @@
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
 		maxGroupSizeAcolyte = 3
-		#Allowed biomes and biome categories to spawn: 
-		biomes = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "mushroom", "icy"]
+		#Allowed biome categories to spawn: 
+		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
+		#Blacklisted biomes to spawn: 
+		blacklist_biomes = ["flower_forest", "lush_caves"]
 
 ["The Graveyard - Horde Config"]
 
@@ -259,7 +271,7 @@
 		generate = true
 		#Set the size of the horde: 
 		#Range: 0 ~ 1000
-		size = 40
+		size = 10
 		#Set the ticks until the next horde spawn attempt: 
 		#Range: 1 ~ 1000000
 		ticksUntilSpawnHorde = 12000
@@ -272,4 +284,63 @@
 		#Set the change of particles spawning (higher numbers = lower spawn rate): 
 		#Range: 1 ~ 500
 		frequency = 50
+
+["The Graveyard - Biome Config"]
+
+	["The Graveyard - Biome Config".ancient_dead_coral_reef]
+		#Allow the biome to spawn: 
+		generate = true
+
+	["The Graveyard - Biome Config".haunted_forest]
+		#Allow the biome to spawn: 
+		generate = true
+
+	["The Graveyard - Biome Config".haunted_lakes]
+		#Allow the biome to spawn: 
+		generate = true
+
+	["The Graveyard - Biome Config".eroded_haunted_forest]
+		#Allow the biome to spawn: 
+		generate = true
+
+["The Graveyard - Biome Fog Config"]
+
+	["The Graveyard - Biome Fog Config".fog_haunted_forest]
+		#Enable fog in the biome: 
+		generate = true
+		#Set density of the fog (smaller values = denser): 
+		#Range: 0.0 ~ 32.0
+		density = 0.35
+		#Set Y value, where the fog starts: 
+		#Range: -64 ~ 256
+		minY = 63
+		#Set Y value, where the fog ends: 
+		#Range: -64 ~ 256
+		maxY = 148
+
+	["The Graveyard - Biome Fog Config".fog_haunted_lakes]
+		#Enable fog in the biome: 
+		generate = true
+		#Set density of the fog (smaller values = denser): 
+		#Range: 0.0 ~ 32.0
+		density = 0.3
+		#Set Y value, where the fog starts: 
+		#Range: -64 ~ 256
+		minY = 63
+		#Set Y value, where the fog ends: 
+		#Range: -64 ~ 256
+		maxY = 128
+
+	["The Graveyard - Biome Fog Config".fog_eroded_haunted_forest]
+		#Enable fog in the biome: 
+		generate = true
+		#Set density of the fog (smaller values = denser): 
+		#Range: 0.0 ~ 32.0
+		density = 0.35
+		#Set Y value, where the fog starts: 
+		#Range: -64 ~ 256
+		minY = 93
+		#Set Y value, where the fog ends: 
+		#Range: -64 ~ 256
+		maxY = 160
 
