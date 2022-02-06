@@ -113,6 +113,9 @@ event.recipes.immersiveengineeringArcFurnace(['2x #forge:ingots/zinc'],'#forge:o
         Item.of('create:crushed_silver_ore').withChance(0.25),
         Item.of('minecraft:cobbled_deepslate').withChance(0.12)
       ], 'occultism:silver_ore_deepslate')
+    event.recipes.createSplashing([
+      Item.of('#forge:nuggets/iesnium').withChance(0.12)
+    ], 'occultism:otherstone')
     event.recipes.immersiveengineeringCrusher('2x create:crushed_zinc_ore', '#forge:ores/zinc') // Secondary output format: {chance: 0.5, output: 'item:id'}
     event.recipes.immersiveengineeringCrusher('12x create:crushed_zinc_ore', 'create:raw_zinc_block')
     event.recipes.immersiveengineeringCrusher('create:crushed_zinc_ore', 'create:raw_zinc', [Item.of('create:crushed_zinc_ore').withChance(0.3333)])

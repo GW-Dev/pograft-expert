@@ -147,57 +147,6 @@
 		}
 		{
 			x: -18.0d
-			y: -8.5d
-			dependencies: ["7A82617E953642C7"]
-			optional: true
-			id: "2FF34DC385AC9CC8"
-			tasks: [{
-				id: "2021DC4120AB8ED5"
-				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "1d8607ee-3a48-4bbe-8923-22a53622ade0"
-						"double/basic_hammer_right_material": "basic_hammer/oak"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/stick"
-						"double/basic_hammer_left_material": "basic_hammer/oak"
-					}
-				}
-			}]
-		}
-		{
-			x: -16.0d
-			y: -8.5d
-			dependencies: ["2FF34DC385AC9CC8"]
-			optional: true
-			id: "41BE8412053DC3C8"
-			tasks: [{
-				id: "42BF9757D53E5424"
-				type: "item"
-				item: "tetra:basic_workbench"
-			}]
-		}
-		{
-			title: "Find a Forge (Found Underground in Snowy Biomes)"
-			x: -14.5d
-			y: -8.5d
-			shape: "gear"
-			dependencies: ["41BE8412053DC3C8"]
-			optional: true
-			id: "36B4BEBE1D1736A5"
-			tasks: [{
-				id: "7FC245F41A5A07CB"
-				type: "item"
-				item: "tetra:seeping_bedrock"
-			}]
-		}
-		{
-			x: -18.0d
 			y: -10.5d
 			dependencies: [
 				"1DE690D04FE69131"
@@ -372,11 +321,6 @@
 					id: "5A47B5A9B7BC7BBE"
 					type: "item"
 					item: "alexsmobs:animal_dictionary"
-				}
-				{
-					id: "37D27362239E9AF7"
-					type: "item"
-					item: "solcarrot:food_book"
 				}
 				{
 					id: "10606611CA2E443C"

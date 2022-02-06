@@ -19,6 +19,7 @@ onEvent('recipes', event => {
     event.remove({output: 'mahoutsukai:mana_circuit_magitech'})
     event.remove({output: 'mahoutsukai:spell_cloth'})
     event.remove({id: 'occultism:crafting/chalk_white_impure'})
+    event.remove({id: 'ars_nouveau:imbuement_amethyst_block'})
 
     event.replaceInput({id: 'ars_nouveau:imbuement_amethyst'}, 'minecraft:amethyst_shard', 'naturesaura:sky_ingot')
 
@@ -64,6 +65,8 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'occultism:spirit_fire/purified_ink'}, 'minecraft:black_dye', 'mahoutsukai:spell_cloth')
     event.replaceInput({type: 'occultism:ritual'}, 'minecraft:gold_ingot', '#forge:ingots/electrum')
     event.replaceInput({id: 'occultism:crafting/golden_sacrificial_bowl'}, 'minecraft:gold_ingot', '#forge:storage_blocks/constantan')
+    event.replaceInput({id: 'occultism:crafting/storage_remote_inert'}, 'minecraft:gold_ingot', '#forge:storage_blocks/constantan')
+    event.replaceInput({id: 'occultism:crafting/wormhole_frame'}, 'minecraft:gold_ingot', '#forge:storage_blocks/constantan')
     event.replaceInput({id: 'occultism:spirit_fire/spirit_attuned_gem'}, 'minecraft:diamond', 'ars_nouveau:source_gem_block')
     event.shapeless('ars_nouveau:novice_spell_book', ['minecraft:book', '6x naturesaura:sky_ingot', '2x naturesaura:tainted_gold_block'])
     event.shapeless('mahoutsukai:spell_cloth', ['ars_nouveau:spell_parchment', Item.of('mahoutsukai:dagger').ignoreNBT()]).keepIngredient(Item.of('mahoutsukai:dagger').ignoreNBT())
