@@ -1,10 +1,10 @@
-[16:25:23] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[16:25:23] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[16:25:23] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[16:25:23] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[16:25:24] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[16:25:24] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:25:24] [Render thread/INFO] [?] Version: JourneyMap 1.18.1-5.8.0beta13, built with Forge 1.18.1-39.0.66
+[10:03:08] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[10:03:08] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[10:03:08] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[10:03:08] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[10:03:08] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
+[10:03:08] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[10:03:09] [Render thread/INFO] [?] Version: JourneyMap 1.18.1-5.8.0beta13, built with Forge 1.18.1-39.0.66
 Forge: 39.0.66
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -22,18 +22,14 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.0beta13, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.0beta13, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.0beta13, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.0beta11, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[16:25:24] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 306.04ms
-[16:25:39] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[16:25:39] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[16:25:39] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 307.13ms
-[16:26:27] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[16:27:18] [Render thread/INFO] [ChatLog] 
-[16:27:19] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:27:19] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\grant\Desktop\Games\MultiMC\instances\Pogcraft.8\.minecraft\journeymap\data\sp\New World\waypoints
-[16:27:19] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\grant\Desktop\Games\MultiMC\instances\Pogcraft.8\.minecraft\journeymap\data\sp\New World\overworld. Memory: 5000MB total, 2411MB free 
-[16:28:05] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\grant\Desktop\Games\MultiMC\instances\Pogcraft.8\.minecraft\journeymap\data\mp\offline\minecraft:overworld
-[16:28:43] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[16:28:55] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:28:55] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\grant\Desktop\Games\MultiMC\instances\Pogcraft.8\.minecraft\journeymap\data\sp\New World ~1~\waypoints
-[16:28:55] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\grant\Desktop\Games\MultiMC\instances\Pogcraft.8\.minecraft\journeymap\data\sp\New World ~1~\overworld. Memory: 7568MB total, 1454MB free 
-[16:55:58] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\grant\Desktop\Games\MultiMC\instances\Pogcraft.8\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[10:03:09] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 594.01ms
+[10:03:24] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[10:03:24] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[10:03:24] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 304.54ms
+[10:03:25] [JM-VersionCheck-1/INFO] [VersionCheck$1] Newer version online: JourneyMap 5.8.0beta14.jar for Minecraft 1.18.1 on http://minecraft.curseforge.com/projects/journeymap/files/3640441
+[10:04:23] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[10:04:52] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[10:04:52] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft\.minecraft\journeymap\data\sp\New World\waypoints
+[10:04:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft\.minecraft\journeymap\data\sp\New World\overworld. Memory: 5792MB total, 1796MB free 
+[10:04:58] [Render thread/INFO] [ChatLog] 
+[10:06:43] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\grant\Documents\Apps\MultiMC\instances\Pogcraft\.minecraft\journeymap\data\mp\offline\minecraft:overworld
